@@ -54,6 +54,11 @@ ul li.active a {
 	padding:15px;
 }
 
+.footerheader:hover {
+	text-decoration-style: underline;
+	transition: 0.6 ease;
+}
+
 
 .homeabout {
 	font-size: 20px;
