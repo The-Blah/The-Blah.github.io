@@ -25,6 +25,7 @@ ul li {
 	font-size: 14px;
 	padding: 20px 20px;
 	margin-left: 0px;
+	border-radius: 5%;
 }
 
 ul li a {
@@ -32,12 +33,14 @@ ul li a {
 	color: black;
 	border: 1px solid transparent;
 	transition: 0.6s ease;
+	border-radius: 5%;
 }
 
 ul li a:hover {
 	background-color: #353434;
 	color: white;
 	padding: 15px 15px;
+	border-radius: 5%;
 }
 
 .logo img {
