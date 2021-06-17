@@ -23,7 +23,21 @@
    </style>
 </head>
 
-<body>
+<body onload="myFunction()" style="margin: 0;">
+<script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 750);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+    </script>
+   <div id="loader"></div>
+    <div style="display:none;" id=myDiv class="animate-bottom">
    <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="material-icons">
          arrow_circle_up
       </span></button>
@@ -129,6 +143,7 @@
          </div>
       </footer>
    </div>
+       </div>
 </body>
 
 </html>
