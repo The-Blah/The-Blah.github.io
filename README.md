@@ -10,6 +10,6 @@ Are you a bit confused with the website or can't find any article? Here's a bit 
 2. Click on the edition you want to read.
 3. There you will find all the pleasurable articles.
 
-Still not able to locate it? Feel free to contact us at our [Gmail](the8thgradeblah@gmail.com!)
+Still not able to locate it? Feel free to contact us at our [Gmail](mailto:the8thgradeblah@gmail.com!)
 
 <h3 align="center" style="margin-top: 0px;">Thank you for viewing our ReadMe file! Hope this was informative and worth-reading!</h3>
