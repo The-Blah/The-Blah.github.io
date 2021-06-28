@@ -25,7 +25,7 @@ ul li {
 	font-size: 14px;
 	padding: 20px 20px;
 	margin-left: 0px;
-	border-radius: 5%;
+	border-radius: 5px;
 }
 
 ul li a {
@@ -33,14 +33,14 @@ ul li a {
 	color: black;
 	border: 1px solid transparent;
 	transition: 0.6s ease;
-	border-radius: 5%;
+	border-radius: 5px;
 }
 
 ul li a:hover {
 	background-color: #353434;
 	color: white;
 	padding: 15px 15px;
-	border-radius: 5%;
+	border-radius: 5px;
 }
 
 .logo img {
@@ -71,15 +71,21 @@ ul li.active a {
 	text-decoration: none;
 	color: black;
 	padding: 10px;
-	border: 1px transparent;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
 
 
 .wadda a:hover {
 	background-color: #353434;
-	padding: 20px;
+	padding: 15px 15px;
 	color: white;
 	transition: 0.6s ease;
+	border-radius: 5px;
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
 
 .row::after {
@@ -195,15 +201,23 @@ ul li.active a {
 		text-decoration: none;
 		color: white;
 		padding: 10px;
-		border: 1px transparent;
+		border: 1px solid transparent;
+		border-radius: 5px;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		margin-top: 10%;
+		margin-bottom: 10%;
 	}
 	
 	
 	.wadda a:hover {
 		background-color: #bdbaba;
-		padding: 20px;
+		padding: 15px 15px;
 		color: black;
 		transition: 0.6s ease;
+		border-radius: 5px;
+		margin-top: 10%;
+		margin-bottom: 10%;
 	}
 	#myBtn {
 		display: none;
