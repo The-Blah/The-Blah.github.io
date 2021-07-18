@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The 8th Grade Blah</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 750);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+    </script>
+    <div id="loader"></div>
+    <div style="display:none;" id=myDiv class="animate-bottom">
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="material-icons">
+                arrow_circle_up
+            </span></button>
+        <script>
+            var mybutton = document.getElementById("myBtn");
+            window.onscroll = function () {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+        <header>
+            <div class="row">
+                <div class=col-3>
+                    <div class="logo">
+                        <img src="https://ik.imagekit.io/3fweuuzz5od/main_XHfqGdXp9.png"><br><br><br><br><br><br>
+                    </div>
+                    <ul class=ulthingy>
+                        <li><a href='../index.html'>Back to Main</a></li>
+                        <li><a href="centuryahead.html">A Century Ahead</a></li>
+                        <li><a href="thetraumaticdemise">The Traumatic Demise</a></li>
+                        <li><a href="firstmusicconcert.html">My First Concert</a></li>
+                        <li><a href="haikusandpoems.html">Haikus, Limerics and Poems</a></li>
+                        <li><a href="howcodingchangedmylife.html">Coding</a></li>
+                        <li><a href="interview.html">Interview</a></li>
+                        <li><a href="nikolatesla.html">Nikola Tesla</a></li>
+                        <li><a href="realheroes.html">The Real Superheroes</a></li>
+                        <li class=active><a href="seventhaugust.html">Seventh August</a></li>
+                        <li><a href="tfc.html">Time for Crime</a></li>
+                        <li><a href="universe.html">The Universe</a></li>
+                        <li><a href="whentheworldgivesyou.html">When the world gives you...</a></li>
+                        <li><a href="worldnews.html">World News</a></li>
+                        <li><a href="ydkt.html">You Didn't Know That</a></li>
+                        <li><a href="photography.html">Photography</a></li>
+                        <li><a href="puzzle.html">Puzzle Mania</a></li>
+                        <li><a href="competition.html">Puzzle Competition</a></li>
+                        <li><a href="talent.html">Blah's Got Talent</a></li>
+                    </ul>
+                </div>
+                <div class='col-9'>
+                    <h1 style="font-size: 43px; text-align: center; margin-top: 17%;">
+                        ═══════<br>7th August<br>
+                    </h1>
+                    <p style="text-align: center; font-size: 20px;">by Gitangali<br><span
+                            style="font-size: 43px;">═══════</span></p>
+                    <p style="font-size: 20px;">
+                        Gazing at the breath-taking sunset, through the French window, sat Oliver. Every year on the 7th
+                        of August, he visited the - Café on the Rocks. No one ever knew why it was so special to him.
+                        The seat right at the end was always his place. He sat there in solitude as he would gaze at the
+                        beautiful sunset and the silhouette of the Eiffel tower; and reflect on his life. From the age
+                        of 8, he and his parents would visit the café on the 7th of august, on Oliver's Birthday; And
+                        the seat at the very end, the seat for 3, was where they sat every time they visited. One night,
+                        it was raining heavily. That day was his 17th birthday. Oliver and his parents decided to visit
+                        the café a little later that day. As they crossed the busy streets of Paris, they reached the
+                        other end of the neighbourhood and entered the café. "let's celebrate! finally!". His parents
+                        went and sat down at their signature place- the very end. Oliver took off his raincoat and
+                        placed it on the rack. As he was heading towards the end, he noticed a large bullet-like shaped
+                        object heading towards the end of the café where his parents were sitting. "Mom, dad watch
+                        out!!!" he shouted on the top of his lungs. But it was too late. The damage had been done. All
+                        he was able to do was save himself. That night, he walked home all alone, drenched entirely in
+                        rain. After a few years, the café was rebuilt and renovated. From that day on, every year, on
+                        the 7th of August, he visited the same café, sat in the same signature place and sipped a cup of
+                        coffee and gazed out into the world thinking about this very day, a day he would never forget;
+                        Both the beginning and the end of that day…The only thought that kept going on in his head was
+                        why he shouldn't have been there in his parent’s place or with them when the incident happened.
+                        The only thought that kept going on in his head was why he shouldn't have been there in his
+                        parent’s place…
+                    </p>
+                </div>
+            </div>
+        </header>
+        <div id=footerdiv class=row
+            style="margin-right: 1%; margin-left: 1%; margin-bottom: 1%; border: 1px solid #af9965">
+            <footer>
+                <div class="col-4" style="margin-left: -1px; padding-bottom: 4%;">
+                    <p class="footerheader">Pages</p>
+                    <ul class=ulthingy>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about.html">About Us</a></li>
+                        <li><a href="../editions.html">Editions</a></li>
+                        <li><a href="../feedback.html">Feedback</a></li>
+                        <li><a href="../changelog.html">Changelog</a></li>
+                    </ul>
+                </div>
+                <div class="col-4" style="margin-left: -1px;">
+                    <p class="footerheader">Our Latest Edition</p>
+                    <ul class=ulthingy>
+                        <li><a href="../edition4/centuryahead.html">A Century Ahead</a></li>
+                        <li><a href="../edition4/drasticview.html">The Drastic View</a></li>
+                        <li><a href="../edition4/firstmusicconcert.html">My First Concert</a></li>
+                        <li><a href="../edition4/haikusandpoems.html">Haikus, Limerics and Poems</a></li>
+                        <li><a href="../edition4/howcodingchangedmylife.html">Coding</a></li>
+                        <li><a href="../edition4/interview.html">Interview</a></li>
+                        <li><a href="../edition4/nikolatesla.html">Nikola Tesla</a></li>
+                        <li><a href="../edition4/realheroes.html">The Real Superheroes</a></li>
+                        <li><a href="../edition4/seventhaugust.html">Seventh August</a></li>
+                        <li><a href="../edition4/tfc.html">Time for Crime</a></li>
+                        <li><a href="../edition4/universe.html">The Universe</a></li>
+                        <li><a href="../edition4/whentheworldgivesyou.html">When the world gives you...</a></li>
+                        <li><a href="../edition4/worldnews.html">World News</a></li>
+                        <li><a href="../edition4/ydkt.html">You Didn't Know That</a></li>
+                        <li><a href="../edition4/photography.html">Photography</a></li>
+                        <li><a href="../edition4/puzzle.html">Puzzle Mania</a></li>
+                        <li><a href="../edition4/competition.html">Puzzle Competition</a></li>
+                        <li><a href="../edition4/talent.html">Blah's Got Talent</a></li>
+                    </ul>
+                </div>
+                <div class="col-4" style="margin-left: -1px; padding-bottom: 20%">
+                    <p class="footerheader">Contact Us</p>
+                    <ul class=ulthingy>
+                        <li><a href="mailto:the8thgradeblah@gmail.com">Email</a></li>
+                        <li><a href="../feedback.html">Feedback</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

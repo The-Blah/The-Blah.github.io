@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 @import url('http://fonts.cdnfonts.com/css/antipasto');
+
 * {
 	font-family: 'Raleway', sans-serif;
 	box-sizing: border-box;
@@ -12,6 +13,76 @@ html {
 body {
 	background-color: #DEE4E7;
 	color: black;
+}
+
+.marquee {
+	height: 50px;
+	overflow: hidden;
+	position: relative;
+	background-color: #af9965;
+	border-color: transparent;
+	border-radius: 5px;
+}
+
+.counter {
+	display: block;
+	text-align: center;
+}
+
+.counter img {
+	margin-top: 1%;
+}
+
+.marquee h4 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	line-height: 50px;
+	text-align: left;
+	/* Apply animation to this element */
+	-moz-animation: marquee 15s linear infinite;
+	-webkit-animation: marquee 15s linear infinite;
+	animation: marquee 15s linear infinitee;
+}
+
+/* Move it (define the animation) */
+@-moz-keyframes marquee {
+	0% {
+		-moz-transform: translateX(100%);
+	}
+
+	100% {
+		-moz-transform: translateX(-100%);
+	}
+}
+
+@-webkit-keyframes marquee {
+	0% {
+		-webkit-transform: translateX(100%);
+	}
+
+	100% {
+		-webkit-transform: translateX(-100%);
+	}
+}
+
+@keyframes marquee {
+	0% {
+		-moz-transform: translateX(100%);
+		/* Firefox bug fix */
+		-webkit-transform: translateX(100%);
+		/* Firefox bug fix */
+		transform: translateX(100%);
+	}
+
+	100% {
+		-moz-transform: translateX(-100%);
+		/* Firefox bug fix */
+		-webkit-transform: translateX(-100%);
+		/* Firefox bug fix */
+		transform: translateX(-100%);
+	}
 }
 
 ul {
@@ -54,7 +125,7 @@ ul li a:hover {
 ul li.active a {
 	background-color: black;
 	color: white;
-	padding:15px;
+	padding: 15px;
 }
 
 .footerheader:hover {
@@ -92,46 +163,85 @@ ul li.active a {
 	content: "";
 	clear: both;
 	display: table;
-  }
+}
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-1 {
+	width: 8.33%;
+}
+
+.col-2 {
+	width: 16.66%;
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.col-4 {
+	width: 33.33%;
+}
+
+.col-5 {
+	width: 41.66%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-7 {
+	width: 58.33%;
+}
+
+.col-8 {
+	width: 66.66%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-10 {
+	width: 83.33%;
+}
+
+.col-11 {
+	width: 91.66%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
 [class*="col-"] {
 	float: left;
 	padding: 15px;
 	/* border: 1px solid red; */
 }
 
-#ulthingy {
+.ulthingy {
 	margin: 0 auto;
 	width: 100%;
 	text-align: center;
 }
 
 
-  @media only screen and (max-width: 768px) {
+
+
+@media only screen and (max-width: 768px) {
+
 	/* For mobile phones: */
 	[class*="col-"] {
-	  width: 100%;
+		width: 100%;
 	}
 
-	#ulthingy {
-		border: 1px solid black;
+	.ulthingy {
+		border: 1px solid #af9965;
 		border-radius: 12px;
 	}
 
 	body {
-		border: 1px solid black;
+		border: 1px solid #af9965;
 		border-radius: 12px;
 	}
 
@@ -141,7 +251,7 @@ ul li.active a {
 
 	#footerdiv {
 		border-top-style: solid;
-		border-width : 5px !important;
+		border-width: 5px !important;
 		border-bottom-style: none !important;
 		border-right-style: none !important;
 		border-left-style: none !important;
@@ -153,7 +263,7 @@ ul li.active a {
 	}
 
 	#riddleiframe {
-		display: none !important; 
+		display: none !important;
 	}
 
 	#riddletext {
@@ -161,15 +271,17 @@ ul li.active a {
 	}
 
 }
+
 @media (prefers-color-scheme: dark) {
 
 	@media only screen and (max-width: 768px) {
 		body {
-			border: 1px solid white !important;
+			border: 1px solid #af9965 !important;
 			border-radius: 12px;
 		}
-		#ulthingy {
-			border: 1px solid white !important;
+
+		.ulthingy {
+			border: 1px solid #af9965 !important;
 			border-radius: 12px;
 		}
 	}
@@ -178,13 +290,14 @@ ul li.active a {
 		color: #EEE;
 		background-color: #121212;
 	}
+
 	ul li a {
 		text-decoration: none;
 		color: white;
 		border: 1px solid transparent;
 		transition: 0.6s ease;
 	}
-	
+
 	ul li a:hover {
 		background-color: #bdbaba;
 		color: black;
@@ -194,7 +307,7 @@ ul li.active a {
 	ul li.active a {
 		background-color: white;
 		color: black;
-		padding:15px;
+		padding: 15px;
 	}
 
 	.wadda a {
@@ -208,8 +321,8 @@ ul li.active a {
 		margin-top: 10%;
 		margin-bottom: 10%;
 	}
-	
-	
+
+
 	.wadda a:hover {
 		background-color: #bdbaba;
 		padding: 15px 15px;
@@ -219,6 +332,7 @@ ul li.active a {
 		margin-top: 10%;
 		margin-bottom: 10%;
 	}
+
 	#myBtn {
 		display: none;
 		position: fixed;
@@ -233,8 +347,8 @@ ul li.active a {
 		cursor: pointer;
 		padding: 15px;
 		border-radius: 4px;
-		}
-	
+	}
+
 	#myBtn:hover {
 		background-color: #bdbaba !important;
 	}
@@ -244,15 +358,17 @@ ul li.active a {
 	}
 
 	#footerdiv {
-		border-color: white !important;
+		border-color: #af9965 !important;
 	}
 
 }
+
 .material-icons {
 	font-family: 'Material Icons';
 	font-weight: normal;
 	font-style: normal;
-	font-size: 24px;  /* Preferred icon size */
+	font-size: 24px;
+	/* Preferred icon size */
 	display: inline-block;
 	line-height: 1;
 	text-transform: none;
@@ -260,15 +376,15 @@ ul li.active a {
 	word-wrap: normal;
 	white-space: nowrap;
 	direction: ltr;
-  
+
 	/* Support for all WebKit browsers. */
 	-webkit-font-smoothing: antialiased;
 	/* Support for Safari and Chrome. */
 	text-rendering: optimizeLegibility;
-  
+
 	/* Support for Firefox. */
 	-moz-osx-font-smoothing: grayscale;
-  
+
 	/* Support for IE. */
 	font-feature-settings: 'liga';
 }
@@ -287,7 +403,7 @@ ul li.active a {
 	cursor: pointer;
 	padding: 15px;
 	border-radius: 4px;
-	}
+}
 
 #myBtn:hover {
 	background-color: #353434;
@@ -319,41 +435,66 @@ ul li.active a {
 		border-top: 10px solid #af9965;
 		-webkit-animation: spin 2s linear infinite;
 		animation: spin 2s linear infinite;
-	  }
-	  
-	  @-webkit-keyframes spin {
-		0% { -webkit-transform: rotate(0deg); }
-		100% { -webkit-transform: rotate(360deg); }
-	  }
-	  
-	  @keyframes spin {
-		0% { transform: rotate(0deg); }
-		100% { transform: rotate(360deg); }
-	  }
-	  
-	  /* Add animation to "page content" */
-	  .animate-bottom {
+	}
+
+	@-webkit-keyframes spin {
+		0% {
+			-webkit-transform: rotate(0deg);
+		}
+
+		100% {
+			-webkit-transform: rotate(360deg);
+		}
+	}
+
+	@keyframes spin {
+		0% {
+			transform: rotate(0deg);
+		}
+
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+
+	/* Add animation to "page content" */
+	.animate-bottom {
 		position: relative;
 		-webkit-animation-name: animatebottom;
 		-webkit-animation-duration: 1s;
 		animation-name: animatebottom;
 		animation-duration: 1s
-	  }
-	  
-	  @-webkit-keyframes animatebottom {
-		from { bottom:-100px; opacity:0 } 
-		to { bottom:0px; opacity:1 }
-	  }
-	  
-	  @keyframes animatebottom { 
-		from{ bottom:-100px; opacity:0 } 
-		to{ bottom:0; opacity:1 }
-	  }
-	  
-	  #myDiv {
+	}
+
+	@-webkit-keyframes animatebottom {
+		from {
+			bottom: -100px;
+			opacity: 0
+		}
+
+		to {
+			bottom: 0px;
+			opacity: 1
+		}
+	}
+
+	@keyframes animatebottom {
+		from {
+			bottom: -100px;
+			opacity: 0
+		}
+
+		to {
+			bottom: 0;
+			opacity: 1
+		}
+	}
+
+	#myDiv {
 		display: none;
-	  }
-	  #riddletext {
-		  display: none !important;
-	  }
+	}
+
+	#riddletext {
+		display: none !important;
+	}
 }

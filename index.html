@@ -25,12 +25,21 @@
     </script>
     <div id="loader"></div>
     <div style="display:none;" id=myDiv class="animate-bottom">
+        <div class=counter>
+            <a href="https://www.hitwebcounter.com" target="_blank">
+                <img src="https://hitwebcounter.com/counter/counter.php?page=7840983&style=0025&nbdigits=5&type=page&initCount=0"
+                    title="Free Counter" Alt="web counter" border="0" />
+            </a>
+            <p>People have viewed this website.</p>
+        </div>
         <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="material-icons">
                 arrow_circle_up
             </span></button>
         <script>
             var mybutton = document.getElementById("myBtn");
-            window.onscroll = function () { scrollFunction() };
+            window.onscroll = function () {
+                scrollFunction()
+            };
 
             function scrollFunction() {
                 if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -39,6 +48,7 @@
                     mybutton.style.display = "none";
                 }
             }
+
             function topFunction() {
                 document.body.scrollTop = 0;
                 document.documentElement.scrollTop = 0;
@@ -48,9 +58,10 @@
             <div class=col-2>
                 <div class="logo">
                     <img src="https://ik.imagekit.io/3fweuuzz5od/main_XHfqGdXp9.png"><br><br><br><br><br><br>
+
                 </div>
                 <nav>
-                    <ul id=ulthingy>
+                    <ul class=ulthingy>
                         <li class="active"><a href="index.html">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="editions.html">Editions</a></li>
@@ -60,6 +71,9 @@
             </div>
             <div class="col-10">
                 <header>
+                    <div class=marquee>
+                        <h4>We have released Edition 4! Check it out <a href="edition4/centuryahead.html">here</a>!</h4>
+                    </div>
                     <h1 style="font-size: 50px; text-align: center; margin-top: 17%;">
                         The 8th Grade Blah!<br></h1>
                 </header>
@@ -70,21 +84,21 @@
                         team!
                         We are commited to your entertainment through the blah, believe it or not, and produce mind
                         boggling articles that will leave you submerged in the topics.<br><br>
-                        Please remember to leave <a href="feedback.html"
-                            style='text-decoration: none; color: rgb(0,0,200);'>feedback</a> after reading our newest
-                        editions!<br><br><br><i>Don't forget to contact us at <a href="theblah2021@gmail.com"
-                                style='text-decoration: none; color: rgb(0,0,200);'>theblah2021@gmail.com<a> for any
+                        Please remember to leave <a href="feedback.html" style='text-decoration: none;'>feedback</a>
+                        after reading our newest
+                        editions!<br><br><br><i>Don't forget to contact us at <a href="mailto:theblah2021@gmail.com"
+                                style='text-decoration: none;'>theblah2021@gmail.com<a> for any
                                     feedback or queries.</i>
                     </p>
                 </article>
             </div>
         </div>
         <div id=footerdiv class=row
-            style="margin-right: 1%; margin-left: 1%; margin-bottom: 1%; border: 1px solid black">
+            style="margin-right: 1%; margin-left: 1%; margin-bottom: 1%; border: 1px solid #af9965;">
             <footer>
                 <div class="col-4" style="margin-left: -1px; padding-bottom: 4%;">
                     <p class="footerheader">Pages</p>
-                    <ul id="ulthingy" class="footerpara">
+                    <ul class="ulthingy" class="footerpara">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="editions.html">Editions</a></li>
@@ -94,29 +108,30 @@
                 </div>
                 <div class="col-4" style="margin-left: -1px;">
                     <p class="footerheader">Our Latest Edition</p>
-                    <ul id=ulthingy>
-                        <li style="font-size: 12px"><a href='rolemodel.html'>Importance of a Role Model</a>
-                        </li>
-                        <li><a href='edition3/poems.html'>Poems</a></li>
-                        <li><a href='edition3/centuryahead.html'>A Century Ahead</a></li>
-                        <li><a href='edition3/hacking.html'>Hacking - The Truth</a></li>
-                        <li><a href='edition3/ai.html'>How has AI changed our life?</a></li>
-                        <li style='font-size: 9px;'><a href='edition3/movieanddirector.html'>Your life is a movie,
-                                and you
-                                are the director</a></li>
-                        <li><a href='edition3/bkatw.html'>Banknotes around the world</a></li>
-                        <li><a href='edition3/recipecorner_ed3.html'>Recipe Corner</a></li>
-                        <li><a href='edition3/guestcontr.html'>Guest Contributions</a></li>
-                        <li><a href='edition3/puzzlecorner.html'>Puzzle Mania</a></li>
-                        <li><a href=edition3/worldnews.html>World News</a></li>
-            <li><a href="edition3/youdidntknow.html">You didn't know that...</a></li>
-            <li><a href="edition3/bgt.html">Blah's Got Talent</a></li>
-            <li><a href="edition3/photos.html">Photography</a></li>
+                    <ul class=ulthingy>
+                        <li><a href="edition4/centuryahead.html">A Century Ahead</a></li>
+                        <li><a href="edition4/drasticview.html">The Drastic View</a></li>
+                        <li><a href="edition4/firstmusicconcert.html">My First Concert</a></li>
+                        <li><a href="edition4/haikusandpoems.html">Haikus, Limerics and Poems</a></li>
+                        <li><a href="edition4/howcodingchangedmylife.html">Coding</a></li>
+                        <li><a href="edition4/interview.html">Interview</a></li>
+                        <li><a href="edition4/nikolatesla.html">Nikola Tesla</a></li>
+                        <li><a href="edition4/realheroes.html">The Real Superheroes</a></li>
+                        <li><a href="edition4/seventhaugust.html">Seventh August</a></li>
+                        <li><a href="edition4/tfc.html">Time for Crime</a></li>
+                        <li><a href="edition4/universe.html">The Universe</a></li>
+                        <li><a href="edition4/whentheworldgivesyou.html">When the world gives you...</a></li>
+                        <li><a href="edition4/worldnews.html">World News</a></li>
+                        <li><a href="edition4/ydkt.html">You Didn't Know That</a></li>
+                        <li><a href="edition4/photography.html">Photography</a></li>
+                        <li><a href="edition4/puzzle.html">Puzzle Mania</a></li>
+                        <li><a href="edition4/competition.html">Puzzle Competition</a></li>
+                        <li><a href="edition4/talent.html">Blah's Got Talent</a></li>
                     </ul>
                 </div>
                 <div class="col-4" style="margin-left: -1px; padding-bottom: 20%">
                     <p class="footerheader">Contact Us</p>
-                    <ul id=ulthingy>
+                    <ul class=ulthingy>
                         <li><a href="mailto:the8thgradeblah@gmail.com">Email</a></li>
                         <li><a href="feedback.html">Feedback</a></li>
                     </ul>

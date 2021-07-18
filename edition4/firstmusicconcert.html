@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The 8th Grade Blah</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 750);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+    </script>
+    <div id="loader"></div>
+    <div style="display:none;" id=myDiv class="animate-bottom">
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="material-icons">
+                arrow_circle_up
+            </span></button>
+        <script>
+            var mybutton = document.getElementById("myBtn");
+            window.onscroll = function () {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+        <header>
+            <div class="row">
+                <div class=col-3>
+                    <div class="logo">
+                        <img src="https://ik.imagekit.io/3fweuuzz5od/main_XHfqGdXp9.png"><br><br><br><br><br><br>
+                    </div>
+                    <ul class=ulthingy>
+                        <li><a href='../index.html'>Back to Main</a></li>
+                        <li><a href="centuryahead.html">A Century Ahead</a></li>
+                        <li><a href="thetraumaticdemise">The Traumatic Demise</a></li>
+                        <li class=active><a href="firstmusicconcert.html">My First Concert</a></li>
+                        <li><a href="haikusandpoems.html">Haikus, Limerics and Poems</a></li>
+                        <li><a href="howcodingchangedmylife.html">Coding</a></li>
+                        <li><a href="interview.html">Interview</a></li>
+                        <li><a href="nikolatesla.html">Nikola Tesla</a></li>
+                        <li><a href="realheroes.html">The Real Superheroes</a></li>
+                        <li><a href="seventhaugust.html">Seventh August</a></li>
+                        <li><a href="tfc.html">Time for Crime</a></li>
+                        <li><a href="universe.html">The Universe</a></li>
+                        <li><a href="whentheworldgivesyou.html">When the world gives you...</a></li>
+                        <li><a href="worldnews.html">World News</a></li>
+                        <li><a href="ydkt.html">You Didn't Know That</a></li>
+                        <li><a href="photography.html">Photography</a></li>
+                        <li><a href="puzzle.html">Puzzle Mania</a></li>
+                        <li><a href="competition.html">Puzzle Competition</a></li>
+                        <li><a href="talent.html">Blah's Got Talent</a></li>
+                    </ul>
+                </div>
+                <div class='col-9'>
+                    <h1 style="font-size: 43px; text-align: center; margin-top: 17%;">
+                        ═══════<br>A Fictional Story - My First Music Concert<br>
+                    </h1>
+                    <p style="text-align: center; font-size: 20px;">by Rahul Anand<br><span
+                            style="font-size: 43px;">═══════</span></p>
+                    <p style="font-size: 20px;">
+                        It was the day, the day in which I had to participate in my first music concert.
+                        I could never have imagined singing in front of ten thousand people where I can't
+                        afford to make any mistakes. Before leaving, I had gone through multiple checks of
+                        my bag to ensure that I hadn't forgotten to pack anything. I remembered to also keep
+                        the hot water flask in my bag mainly because of two reasons, it was winter and very
+                        cold outside and my throat always got dehydrated very quickly.
+                        <br><br>
+                        My sister had also suggested me to mix ginger in the hot water to smoothen my throat
+                        further. I left home and boarded the bus. The trip took longer than I expected but
+                        nevertheless I reached there. The auditorium was big and only helped further increase
+                        my nervousness. I went through three to four practice rounds and revised the lyrics
+                        several times. My friends too motivated me and suggested that I be calm during the
+                        concert and also gave me several tips to overcome my stage fear.
+                        <br><br>
+                        I was pretty confident now and decided to spectate the performances of others until
+                        I was called. Moments later, my name echoed through the auditorium. I took a deep
+                        breath, recalled all the tips I was given and took a sip of the "ginger water". I
+                        started my performance and everything went smoothly, so much that I had even
+                        outperformed my practice rounds. Within seconds, I heard thousands of people clapping
+                        and cheering for me and my joy knew no bounds. My friends too praised me.
+                        <br><br>
+                        Finally all the performances were over and the curtains dropped down. I joyfully
+                        returned back home eagerly waiting for the results. Within two weeks, I got an
+                        official email from the host of the competition. I was pleasantly surprised at
+                        the same time. I saw my name written in big bold letters and a picture of a gold
+                        medal next to it.
+                        <br><br>
+                        "Optimism is the key to overcome nervousness"
+
+                    </p>
+                </div>
+            </div>
+        </header>
+        <div id=footerdiv class=row
+            style="margin-right: 1%; margin-left: 1%; margin-bottom: 1%; border: 1px solid #af9965">
+            <footer>
+                <div class="col-4" style="margin-left: -1px; padding-bottom: 4%;">
+                    <p class="footerheader">Pages</p>
+                    <ul class=ulthingy>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about.html">About Us</a></li>
+                        <li><a href="../editions.html">Editions</a></li>
+                        <li><a href="../feedback.html">Feedback</a></li>
+                        <li><a href="../changelog.html">Changelog</a></li>
+                    </ul>
+                </div>
+                <div class="col-4" style="margin-left: -1px;">
+                    <p class="footerheader">Our Latest Edition</p>
+                    <ul class=ulthingy>
+                        <li><a href="../edition4/centuryahead.html">A Century Ahead</a></li>
+                        <li><a href="../edition4/drasticview.html">The Drastic View</a></li>
+                        <li><a href="../edition4/firstmusicconcert.html">My First Concert</a></li>
+                        <li><a href="../edition4/haikusandpoems.html">Haikus, Limerics and Poems</a></li>
+                        <li><a href="../edition4/howcodingchangedmylife.html">Coding</a></li>
+                        <li><a href="../edition4/interview.html">Interview</a></li>
+                        <li><a href="../edition4/nikolatesla.html">Nikola Tesla</a></li>
+                        <li><a href="../edition4/realheroes.html">The Real Superheroes</a></li>
+                        <li><a href="../edition4/seventhaugust.html">Seventh August</a></li>
+                        <li><a href="../edition4/tfc.html">Time for Crime</a></li>
+                        <li><a href="../edition4/universe.html">The Universe</a></li>
+                        <li><a href="../edition4/whentheworldgivesyou.html">When the world gives you...</a></li>
+                        <li><a href="../edition4/worldnews.html">World News</a></li>
+                        <li><a href="../edition4/ydkt.html">You Didn't Know That</a></li>
+                        <li><a href="../edition4/photography.html">Photography</a></li>
+                        <li><a href="../edition4/puzzle.html">Puzzle Mania</a></li>
+                        <li><a href="../edition4/competition.html">Puzzle Competition</a></li>
+                        <li><a href="../edition4/talent.html">Blah's Got Talent</a></li>
+                    </ul>
+                </div>
+                <div class="col-4" style="margin-left: -1px; padding-bottom: 20%">
+                    <p class="footerheader">Contact Us</p>
+                    <ul class=ulthingy>
+                        <li><a href="mailto:the8thgradeblah@gmail.com">Email</a></li>
+                        <li><a href="../feedback.html">Feedback</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
