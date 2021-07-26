@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The 8th Grade Blah</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .photos {
+            display: block;
+            width: 60%;
+            height: auto;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .photocaption {
+            text-align: center;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 750);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+    </script>
+    <div id="loader"></div>
+    <div style="display:none;" id=myDiv class="animate-bottom">
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="material-icons">
+                arrow_circle_up
+            </span></button>
+        <script>
+            var mybutton = document.getElementById("myBtn");
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+        <header>
+            <div class="row">
+                <div class=col-3>
+                    <div class="logo">
+                        <img src="https://ik.imagekit.io/3fweuuzz5od/main_XHfqGdXp9.png"><br><br><br><br><br><br>
+                    </div>
+                    <ul class=ulthingy>
+                        <li><a href='../index.html'>Back to Main</a></li>
+                        <li style="font-size: 12px"><a href='rolemodel.html'>Importance of a Role Model</a></li>
+                        <li><a href='poems.html'>Poems</a></li>
+                        <li><a href='centuryahead.html'>A Century Ahead</a></li>
+                        <li><a href='hacking.html'>Hacking - The Truth</a></li>
+                        <li><a href='ai.html'>How has AI changed our life?</a></li>
+                        <li style='font-size: 9px;'><a href='movieanddirector.html'>Your life is a movie, and you
+                                are the director</a></li>
+                        <li><a href='bkatw.html'>Banknotes around the world</a></li>
+                        <li><a href='recipecorner_ed3.html'>Recipe Corner</a></li>
+                        <li><a href='guestcontr.html'>Guest Contributions</a></li>
+                        <li><a href='puzzlecorner.html'>Puzzle Mania</a></li>
+                        <li><a href=worldnews.html>World News</a></li>
+                        <li><a href=youdidntknow.html>You didn't know that...</a></li>
+                        <li><a href="bgt.html">Blah's Got Talent</a></li>
+                        <li class=active><a href="photos.html">Photography</a></li>
+                    </ul>
+                </div>
+                <div class=col-9>
+                    <h1 style="font-size: 43px; text-align: center; margin-top: 17%;">
+                        ═══════<br>Photography<br>═══════
+                    </h1>
+                    <img src="https://media.discordapp.net/attachments/854324695235166208/859006607899623434/IMG_0812.jpg"
+                        alt="Photo 1" class="photos" style="margin-top: 100px;"><br>
+                    <br><br><br><br>
+                    <img src="https://media.discordapp.net/attachments/854324695235166208/859006617809715210/IMG_0544.jpg"
+                        alt="Photo 2" class='photos' style="margin-top: 100px;">
+                    <img src="https://media.discordapp.net/attachments/854324695235166208/859006614371565568/IMG_0586.jpg"
+                        alt="Photo 3" class='photos' style="margin-top: 100px;">
+                    <img src="https://media.discordapp.net/attachments/854324695235166208/859006612411514890/IMG_0656.jpg"
+                        alt="Photo 4" class='photos' style="margin-top: 100px;">
+                    <img src="https://media.discordapp.net/attachments/854324695235166208/859006612567359488/IMG_0634.jpg"
+                        alt="Photo 5" class='photos' style="margin-top: 100px;">
+                    <img src="https://media.discordapp.net/attachments/854324695235166208/859006607840641024/IMG_0767.jpg"
+                        alt="Photo 6" class='photos' style="margin-top: 100px;">
+                    <img src="https://media.discordapp.net/attachments/854324695235166208/859006607249899530/IMG_0820.jpg"
+                        alt="Photo 7" class='photos' style="margin-top: 100px;">
+                    <p class=photocaption>by Darshan</p>
+                    <br><br><br><br>
+                </div>
+            </div>
+        </header>
+        <div id=footerdiv class=row
+            style="margin-right: 1%; margin-left: 1%; margin-bottom: 1%; border: 1px solid #af9965">
+            <footer>
+                <div class="col-4" style="margin-left: -1px; padding-bottom: 4%;">
+                    <p class="footerheader">Pages</p>
+                    <ul class=ulthingy>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about.html">About Us</a></li>
+                        <li><a href="../editions.html">Editions</a></li>
+                        <li><a href="../feedback.html">Feedback</a></li>
+                        <li><a href="../changelog.html">Changelog</a></li>
+                    </ul>
+                </div>
+                <div class="col-4" style="margin-left: -1px;">
+                    <p class="footerheader">Our Latest Edition</p>
+                    <ul class=ulthingy>
+                        <li><a href="../edition4/centuryahead.html">A Century Ahead</a></li>
+                        <li><a href="../edition4/thetraumaticdemise.html">The Traumatic Demise</a></li>
+                        <li><a href="../edition4/firstmusicconcert.html">My First Concert</a></li>
+                        <li><a href="../edition4/haikusandpoems.html">Haikus, Limerics and Poems</a></li>
+                        <li><a href="../edition4/howcodingchangedmylife.html">How Coding Changed My Life</a></li>
+                        <li><a href="../edition4/interview.html">Interview</a></li>
+                        <li><a href="../edition4/nikolatesla.html">Nikola Tesla</a></li>
+                        <li><a href="../edition4/realheroes.html">The Real Superheroes</a></li>
+                        <li><a href="../edition4/seventhaugust.html">Seventh August</a></li>
+                        <li><a href="../edition4/tfc.html">Time for Crime</a></li>
+                        <li><a href="../edition4/universe.html">The Universe</a></li>
+                        <li><a href="../edition4/whentheworldgivesyou.html">When the world gives you...</a></li>
+                        <li><a href="../edition4/worldnews.html">World News</a></li>
+                        <li><a href="../edition4/ydkt.html">You Didn't Know That</a></li>
+                        <li><a href="../edition4/photography.html">Photography</a></li>
+                        <li><a href="../edition4/puzzle.html">Puzzle Mania</a></li>
+                        <li><a href="../edition4/competition.html">Puzzle Competition</a></li>
+                        <li><a href="../edition4/recipe.html">Recipe Corner</a></li>
+                        <li><a href="../edition4/talent.html">Blah's Got Talent</a></li>
+                    </ul>
+                </div>
+                <div class="col-4" style="margin-left: -1px; padding-bottom: 20%">
+                    <p class="footerheader">Contact Us</p>
+                    <ul class=ulthingy>
+                        <li><a href="mailto:the8thgradeblah@gmail.com">Email</a></li>
+                        <li><a href="../feedback.html">Feedback</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

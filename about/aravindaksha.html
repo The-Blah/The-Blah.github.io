@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>The 8th Grade Blah</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+  <script>
+    var myVar;
+
+    function myFunction() {
+      myVar = setTimeout(showPage, 750);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+  </script>
+  <div id="loader"></div>
+  <div style="display:none;" id=myDiv class="animate-bottom">
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="material-icons">
+        arrow_circle_up
+      </span></button>
+    <script>
+      var mybutton = document.getElementById("myBtn");
+      window.onscroll = function () {
+        scrollFunction()
+      };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <header>
+      <div class=row>
+        <div class=col-2>
+          <div class="logo">
+            <img src="https://ik.imagekit.io/3fweuuzz5od/main_XHfqGdXp9.png"><br><br><br><br><br><br>
+          </div>
+          <ul id="ulthingy">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="about.html">About Us</a></li>
+            <li><a href="editions.html">Editions</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+          </ul>
+        </div>
+        <div class="col-10">
+          <h1 style="line-height: 1; font-size: 43px; text-align: center; margin-top: 17%;">═══════<br>About
+            Us<br>═══════</h1>
+          <br>
+          <p style="font-size: 20px; text-align: center;">
+            <b>Arnav</b> - The one who refounded the blah!<br><br>
+            <b>Sansskriti</b> - She practically gave us the big brain ideas which would give shape to the blah.<br><br>
+            <b>Venkat</b> - Venkat always enlightens the mood with his confusion.<br><br>
+            <b>Rahul</b> - The intelligent coder who developed the basic code of our
+            website!<br><br>
+            <b>Aravindaksha</b> - An aerospace and tech geek, he writes about modern topics! He also coded the mobile
+            compatibility and a few "bells and whistles" for the website!<br><br>
+            <b>Aayush</b> - He knows what to do to make our article a banger for the audience!<br><br>
+            <b>Darshan</b> - The awesome photographer and quick thinker!<br><br>
+            <b>Arshitha</b> - She is a budding artist and enthusiastic writer who brainstorms creative ideas!
+            <br><br><br>
+            The Blah was founded in 4th Grade by Shambhavi (who left the school in 6th) and Aayush. There were 3
+            editions totally and they were stuck outside the 4/5C classroom or everyone to see. It was a big hit among
+            the students.
+            <br><br>
+            It was refounded by Arnav in the summer holidays of 2021 and consisted most of the original members with
+            some new additions.
+            <br><br><br>
+            <i>Please contact us at <a href="mailto:theblah2021@gmail.com">theblah2021@gmail.com<a> for any
+                  feedback or queries.</i>
+          </p>
+        </div>
+      </div>
+    </header>
+    <div id=footerdiv class=row style="margin-right: 1%; margin-left: 1%; margin-bottom: 1%; border: 1px solid #af9965">
+      <footer>
+        <div class="col-4" style="margin-left: -1px; padding-bottom: 4%;">
+          <p class="footerheader">Pages</p>
+          <ul id="ulthingy" class="footerpara">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="editions.html">Editions</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="changelog.html">Changelog</a></li>
+          </ul>
+        </div>
+        <div class="col-4" style="margin-left: -1px;">
+          <p class="footerheader">Our Latest Edition</p>
+          <ul class=ulthingy>
+            <li style="font-size: 12px"><a href='rolemodel.html'>Importance of a Role Model</a>
+            </li>
+            <li><a href='edition3/poems.html'>Poems</a></li>
+            <li><a href='edition3/centuryahead.html'>A Century Ahead</a></li>
+            <li><a href='edition3/hacking.html'>Hacking - The Truth</a></li>
+            <li><a href='edition3/ai.html'>How has AI changed our life?</a></li>
+            <li style='font-size: 9px;'><a href='edition3/movieanddirector.html'>Your life is a movie,
+                and you
+                are the director</a></li>
+            <li><a href='edition3/bkatw.html'>Banknotes around the world</a></li>
+            <li><a href='edition3/recipecorner_ed3.html'>Recipe Corner</a></li>
+            <li><a href='edition3/guestcontr.html'>Guest Contributions</a></li>
+            <li><a href='edition3/puzzlecorner.html'>Puzzle Mania</a></li>
+            <li><a href=edition3/worldnews.html>World News</a> </li> <li><a href="edition3/youdidntknow.html">You didn't
+                  know that...</a></li>
+            <li><a href="edition3/bgt.html">Blah's Got Talent</a></li>
+            <li><a href="edition3/photos.html">Photography</a></li>
+          </ul>
+        </div>
+        <div class="col-4" style="margin-left: -1px; padding-bottom: 20%">
+          <p class="footerheader">Contact Us</p>
+          <ul class=ulthingy>
+            <li><a href="mailto:the8thgradeblah@gmail.com">Email</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>

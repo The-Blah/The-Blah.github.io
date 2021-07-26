@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The 8th Grade Blah</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .photos {
+            display: block;
+            width: 60%;
+            height: auto;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .photocaption {
+            text-align: center;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 750);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+    </script>
+    <div id="loader"></div>
+    <div style="display:none;" id=myDiv class="animate-bottom">
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="material-icons">
+                arrow_circle_up
+            </span></button>
+        <script>
+            var mybutton = document.getElementById("myBtn");
+            window.onscroll = function () {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+        <header>
+            <div class="row">
+                <div class=col-3>
+                    <div class="logo">
+                        <img src="https://ik.imagekit.io/3fweuuzz5od/main_XHfqGdXp9.png"><br><br><br><br><br><br>
+                    </div>
+                    <ul class=ulthingy>
+                        <li><a href='../index.html'>Back to Main</a></li>
+                        <li><a href="centuryahead.html">A Century Ahead</a></li>
+                        <li><a href="thetraumaticdemise.html">The Traumatic Demise</a></li>
+                        <li><a href="firstmusicconcert.html">My First Concert</a></li>
+                        <li><a href="haikusandpoems.html">Haikus, Limerics and Poems</a></li>
+                        <li><a href="howcodingchangedmylife.html">How Coding Changed My Life</a></li>
+                        <li><a href="interview.html">Interview</a></li>
+                        <li><a href="nikolatesla.html">Nikola Tesla</a></li>
+                        <li><a href="realheroes.html">The Real Superheroes</a></li>
+                        <li><a href="seventhaugust.html">Seventh August</a></li>
+                        <li><a href="tfc.html">Time for Crime</a></li>
+                        <li><a href="universe.html">The Universe</a></li>
+                        <li><a href="whentheworldgivesyou.html">When the world gives you...</a></li>
+                        <li><a href="worldnews.html">World News</a></li>
+                        <li><a href="ydkt.html">You Didn't Know That</a></li>
+                        <li class=active><a href="photography.html">Photography</a></li>
+                        <li><a href="puzzle.html">Puzzle Mania</a></li>
+                        <li><a href="competition.html">Puzzle Competition</a></li>
+                        <li><a href="talent.html">Blah's Got Talent</a></li>
+                        <li><a href="recipe.html">Recipe Corner</a></li>
+                    </ul>
+                </div>
+                <div class=col-9>
+                    <h1 style="font-size: 43px; text-align: center; margin-top: 17%;">
+                        ═══════<br>Photography<br>═══════
+                    </h1>
+                    <img src="https://cdn.discordapp.com/attachments/854324695235166208/863748469151367198/IMG_20210711_150510.jpg"
+                        alt="Photo 3" class='photos' style="margin-top: 100px;">
+                    <br><br>
+                    <img src="https://cdn.discordapp.com/attachments/854324695235166208/863748469918007326/IMG_20210711_143916.jpg"
+                        alt="Photo 5" class='photos' style="margin-top: 100px;">
+                    <br><br>
+                    <img src="https://cdn.discordapp.com/attachments/854324695235166208/863748470388555806/IMG_20210711_144040.jpg"
+                        alt="Photo 6" class='photos' style="margin-top: 100px;">
+                    <br><br>
+                    <p class=photocaption>by Arshitha</p>
+
+                    <img src="https://cdn.discordapp.com/attachments/854324695235166208/865432146747719690/AM-JKLWkSIpmQZp7q9C0R1DkAOf0Clfxm16HlcW2upyDrRVf6411FGmv63tMZn5yQ5zBBL7TYwB6XGe3TpaBfCAFmjAyKnJ_i8q2.png"
+                        alt="Photo 1" class="photos" style="margin-top: 100px;"><br>
+                    <br><br>
+                    <img src=https://cdn.discordapp.com/attachments/854324695235166208/865432389421760533/AM-JKLWk8pt9kddQC12WMRg766NRGNaaJPU_b-st-R9K90M3ehQhuY9fXUgCuFP4pjth1QsmYU_3h0AA3B41IhVWfYG9jH8H5rG0.png
+                        alt="Photo 2" class='photos' style="margin-top: 100px;">
+                    <br><br>
+                    <img src="https://cdn.discordapp.com/attachments/854324695235166208/865432434354946048/AM-JKLVXDKYnVxbWsOA3Oymmx7Mk3a8rY1FJxyK45N38D59ffZiAxG43PP7HblOUz0w9JIGzmQPuvwWLvEe_r5zfqddPtg2qwELI.png"
+                        alt="Photo 3" class='photos' style="margin-top: 100px;">
+                    <br><br>
+                    <p class=photocaption>by Darshan</p>
+                    <img src="https://cdn.discordapp.com/attachments/854324695235166208/865620843852988446/IMG-20210703-WA0036.png"
+                        alt="Photo 4" class='photos' style="margin-top: 100px;">
+                    <br><br>
+                    <img src="https://cdn.discordapp.com/attachments/854324695235166208/865620898383003688/IMG-20210703-WA0035.png"
+                        alt="Photo 6" class='photos' style="margin-top: 100px;">
+                    <br><br>
+                    <img src="https://cdn.discordapp.com/attachments/854324695235166208/865621121033830400/IMG-20210703-WA0033.png"
+                        alt="Photo 7" class='photos' style="margin-top: 100px;">
+                    <br><br>
+                    <p class=photocaption>by Rahul</p>
+                </div>
+            </div>
+        </header>
+        <div id=footerdiv class=row
+            style="margin-right: 1%; margin-left: 1%; margin-bottom: 1%; border: 1px solid #af9965">
+            <footer>
+                <div class="col-4" style="margin-left: -1px; padding-bottom: 4%;">
+                    <p class="footerheader">Pages</p>
+                    <ul class=ulthingy>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about.html">About Us</a></li>
+                        <li><a href="../editions.html">Editions</a></li>
+                        <li><a href="../feedback.html">Feedback</a></li>
+                        <li><a href="../changelog.html">Changelog</a></li>
+                    </ul>
+                </div>
+                <div class="col-4" style="margin-left: -1px;">
+                    <p class="footerheader">Our Latest Edition</p>
+                    <ul class=ulthingy>
+                        <li><a href="../edition4/centuryahead.html">A Century Ahead</a></li>
+                        <li><a href="../edition4/thetraumaticdemise.html">The Traumatic Demise</a></li>
+                        <li><a href="../edition4/firstmusicconcert.html">My First Concert</a></li>
+                        <li><a href="../edition4/haikusandpoems.html">Haikus, Limerics and Poems</a></li>
+                        <li><a href="../edition4/howcodingchangedmylife.html">How Coding Changed My Life</a></li>
+                        <li><a href="../edition4/interview.html">Interview</a></li>
+                        <li><a href="../edition4/nikolatesla.html">Nikola Tesla</a></li>
+                        <li><a href="../edition4/realheroes.html">The Real Superheroes</a></li>
+                        <li><a href="../edition4/seventhaugust.html">Seventh August</a></li>
+                        <li><a href="../edition4/tfc.html">Time for Crime</a></li>
+                        <li><a href="../edition4/universe.html">The Universe</a></li>
+                        <li><a href="../edition4/whentheworldgivesyou.html">When the world gives you...</a></li>
+                        <li><a href="../edition4/worldnews.html">World News</a></li>
+                        <li><a href="../edition4/ydkt.html">You Didn't Know That</a></li>
+                        <li><a href="../edition4/photography.html">Photography</a></li>
+                        <li><a href="../edition4/puzzle.html">Puzzle Mania</a></li>
+                        <li><a href="../edition4/competition.html">Puzzle Competition</a></li>
+                        <li><a href="../edition4/recipe.html">Recipe Corner</a></li>
+                        <li><a href="../edition4/talent.html">Blah's Got Talent</a></li>
+                    </ul>
+                </div>
+                <div class="col-4" style="margin-left: -1px; padding-bottom: 20%">
+                    <p class="footerheader">Contact Us</p>
+                    <ul class=ulthingy>
+                        <li><a href="mailto:the8thgradeblah@gmail.com">Email</a></li>
+                        <li><a href="../feedback.html">Feedback</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

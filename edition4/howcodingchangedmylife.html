@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The 8th Grade Blah</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body onload="myFunction()" style="margin:0;">
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 750);
+        }
+
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+    </script>
+    <div id="loader"></div>
+    <div style="display:none;" id=myDiv class="animate-bottom">
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="material-icons">
+                arrow_circle_up
+            </span></button>
+        <script>
+            var mybutton = document.getElementById("myBtn");
+            window.onscroll = function () {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+        <header>
+            <div class="row">
+                <div class=col-3>
+                    <div class="logo">
+                        <img src="https://ik.imagekit.io/3fweuuzz5od/main_XHfqGdXp9.png"><br><br><br><br><br><br>
+                    </div>
+                    <ul class=ulthingy>
+                        <li><a href='../index.html'>Back to Main</a></li>
+                        <li><a href="centuryahead.html">A Century Ahead</a></li>
+                        <li><a href="thetraumaticdemise.html">The Traumatic Demise</a></li>
+                        <li><a href="firstmusicconcert.html">My First Concert</a></li>
+                        <li><a href="haikusandpoems.html">Haikus, Limerics and Poems</a></li>
+                        <li class=active><a href="howcodingchangedmylife.html">How Coding Changed My Life</a></li>
+                        <li><a href="interview.html">Interview</a></li>
+                        <li><a href="nikolatesla.html">Nikola Tesla</a></li>
+                        <li><a href="realheroes.html">The Real Superheroes</a></li>
+                        <li><a href="seventhaugust.html">Seventh August</a></li>
+                        <li><a href="tfc.html">Time for Crime</a></li>
+                        <li><a href="universe.html">The Universe</a></li>
+                        <li><a href="whentheworldgivesyou.html">When the world gives you...</a></li>
+                        <li><a href="worldnews.html">World News</a></li>
+                        <li><a href="ydkt.html">You Didn't Know That</a></li>
+                        <li><a href="photography.html">Photography</a></li>
+                        <li><a href="puzzle.html">Puzzle Mania</a></li>
+                        <li><a href="competition.html">Puzzle Competition</a></li>
+                        <li><a href="talent.html">Blah's Got Talent</a></li>
+                        <li><a href="recipe.html">Recipe Corner</a></li>
+                    </ul>
+                </div>
+                <div class='col-9'>
+                    <h1 style="font-size: 43px; text-align: center; margin-top: 17%;">
+                        ═══════<br>How Coding Changed My Life<br>
+                    </h1>
+                    <p style="text-align: center; font-size: 20px;">by Rahul Anand<br><span
+                            style="font-size: 43px;">═══════</span></p>
+                    <p style="font-size: 20px;">
+                        A lot has changed in the world, mainly the modernization and the digitalization of
+                        things. Digitalization is the capability of making things easier by automating it in
+                        a virtual or an electronic device. Coding is the most interesting and intuitive of
+                        them all. You can automate almost any task by writing a script or a code.
+                        <br><br>
+                        Coding is a fun and interesting habit that I believe people should start to develop
+                        as the world turns into a futuristic space. Many people visualize coding as typing
+                        random letters into the keyboard but it has a lot more meaning than that. Let me take
+                        you through my coding journey and what I personally think about it.
+                        <br><br>
+                        I first heard the term “coding”, in the middle of 2020 and got really interested
+                        by it. My journey of coding started with a deep research of it which took several
+                        hours. But, amongst all the research, the one term that intrigued me was “programming
+                        languages”. Were they just normal languages like English?
+                        <br><br>
+                        After learning more about them, I came to know that they were the language used
+                        for writing the script or the code. The highest rated and the most beginner-friendly
+                        programming language was Python. I then proceeded learning it by watching a famous
+                        tutorial on YouTube. It was a bit difficult at the beginning but as I started
+                        dedicating more time and interest into it, it became much easier. I finished learning
+                        the “basics” of the language in about a week.
+                        <br><br>
+                        Soon after learning, I was able to code the language far more efficiently. One of the
+                        valuable lessons that I learnt from coding was, “the more interest and time you
+                        dedicate into something, the easier it will be to master it”.
+                        <br><br>
+                        I was able to automate almost everything, starting from calculations to virtual
+                        AI based bots that replied with a unique answer for every question asked. I learnt
+                        many more programming languages built for many different purposes like HTML, CSS and
+                        JavaScript for web-development; JavaScript for console-based applications; Java for
+                        applications and C++ for building desktop applications.
+                        <br><br>
+                        You can do Programming as a specialization or just as a hobby. Either way,
+                        Programming or Coding is a great way to spend your time and improve your knowledge
+                        if you are bored whilst also imparting a great amount of knowledge and improving your
+                        learning and thinking abilities. It is a sure preparation for the future and the world
+                        of digitalization.
+                    </p>
+                </div>
+            </div>
+        </header>
+        <div id=footerdiv class=row
+            style="margin-right: 1%; margin-left: 1%; margin-bottom: 1%; border: 1px solid #af9965">
+            <footer>
+                <div class="col-4" style="margin-left: -1px; padding-bottom: 4%;">
+                    <p class="footerheader">Pages</p>
+                    <ul class=ulthingy>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about.html">About Us</a></li>
+                        <li><a href="../editions.html">Editions</a></li>
+                        <li><a href="../feedback.html">Feedback</a></li>
+                        <li><a href="../changelog.html">Changelog</a></li>
+                    </ul>
+                </div>
+                <div class="col-4" style="margin-left: -1px;">
+                    <p class="footerheader">Our Latest Edition</p>
+                    <ul class=ulthingy>
+                        <li><a href="../edition4/centuryahead.html">A Century Ahead</a></li>
+                        <li><a href="../edition4/thetraumaticdemise.html">The Traumatic Demise</a></li>
+                        <li><a href="../edition4/firstmusicconcert.html">My First Concert</a></li>
+                        <li><a href="../edition4/haikusandpoems.html">Haikus, Limerics and Poems</a></li>
+                        <li><a href="../edition4/howcodingchangedmylife.html">How Coding Changed My Life</a></li>
+                        <li><a href="../edition4/interview.html">Interview</a></li>
+                        <li><a href="../edition4/nikolatesla.html">Nikola Tesla</a></li>
+                        <li><a href="../edition4/realheroes.html">The Real Superheroes</a></li>
+                        <li><a href="../edition4/seventhaugust.html">Seventh August</a></li>
+                        <li><a href="../edition4/tfc.html">Time for Crime</a></li>
+                        <li><a href="../edition4/universe.html">The Universe</a></li>
+                        <li><a href="../edition4/whentheworldgivesyou.html">When the world gives you...</a></li>
+                        <li><a href="../edition4/worldnews.html">World News</a></li>
+                        <li><a href="../edition4/ydkt.html">You Didn't Know That</a></li>
+                        <li><a href="../edition4/photography.html">Photography</a></li>
+                        <li><a href="../edition4/puzzle.html">Puzzle Mania</a></li>
+                        <li><a href="../edition4/competition.html">Puzzle Competition</a></li>
+                        <li><a href="../edition4/recipe.html">Recipe Corner</a></li>
+                        <li><a href="../edition4/talent.html">Blah's Got Talent</a></li>
+                    </ul>
+                </div>
+                <div class="col-4" style="margin-left: -1px; padding-bottom: 20%">
+                    <p class="footerheader">Contact Us</p>
+                    <ul class=ulthingy>
+                        <li><a href="mailto:the8thgradeblah@gmail.com">Email</a></li>
+                        <li><a href="../feedback.html">Feedback</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
