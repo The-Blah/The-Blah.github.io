@@ -1,7 +1,0 @@
-<nav>
-    <ul class=ulthingy>
-    {% for item in site.data.navigation_main %}
-        <li {% if page.url == item.link %}class="active"{% endif %}><a href="{{ item.link }}">{{ item.name }}</a></li>
-    {% endfor %}
-    </ul>
-</nav>
