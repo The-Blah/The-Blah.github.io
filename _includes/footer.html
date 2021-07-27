@@ -1,5 +1,28 @@
 <footer>
-    <div class="col-4" style="margin-left: -1px;">
-
+    <div>
+        <div class="col-4 footer-content-division">
+            <p class="footerheader">Pages</p>
+            <ul class="navigation">
+                {% for item in site.data.footer.main_pages %}
+                <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="col-4 footer-content-division">
+            <p class="footerheader">Our Latest Edition</p>
+            <ul class="navigation">
+                {% for item in site.data.footer.articles %}
+                <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="col-4 footer-content-division">
+            <p class="footerheader">Contact Us</p>
+            <ul class="navigation">
+                {% for item in site.data.footer.contact %}
+                <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
     </div>
 </footer>

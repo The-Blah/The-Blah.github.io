@@ -26,6 +26,10 @@
  .counter img {
      margin-top: 1%;
 }
+
+ .footer-content-division {
+    margin-left: -1px;
+ }
  .marquee h4 {
      position: absolute;
      width: 100%;
@@ -111,7 +115,7 @@
  .homeabout {
      font-size: 20px;
 }
- .wadda a {
+ .editions-list a {
      text-decoration: none;
      color: black;
      padding: 10px;
@@ -120,7 +124,7 @@
      margin-top: 10%;
      margin-bottom: 10%;
 }
- .wadda a:hover {
+ .editions-list a:hover {
      background-color: #353434;
      padding: 15px 15px;
      color: white;
@@ -247,7 +251,7 @@
          color: black;
          padding: 15px;
     }
-     .wadda a {
+     .editions-list a {
          text-decoration: none;
          color: white;
          padding: 10px;
@@ -258,7 +262,7 @@
          margin-top: 10%;
          margin-bottom: 10%;
     }
-     .wadda a:hover {
+     .editions-list a:hover {
          background-color: #bdbaba;
          padding: 15px 15px;
          color: black;
@@ -343,7 +347,7 @@
      margin-right: 1%; 
      margin-left: 1%; 
      margin-bottom: 1%; 
-     // border: 1px solid #af9965;
+     border: 1px solid #af9965;
 }
  @media only screen and (min-width: 769px) {
      #loader {

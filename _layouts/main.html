@@ -28,13 +28,15 @@
     </script>
     <div id="loader"></div>
     <div style="display:none;" id=myDiv class="animate-bottom">
-        <div class=counter>
-            <a href="https://www.hitwebcounter.com" target="_blank">
-                <img src="https://hitwebcounter.com/counter/counter.php?page=7840983&style=0025&nbdigits=5&type=page&initCount=0"
-                    title="Free Counter" Alt="web counter" border="0"/>
-            </a>
-            <p>Views in this website.</p>
-        </div>
+        <!--
+            <div class=counter>
+                <a href="https://www.hitwebcounter.com" target="_blank">
+                    <img src="https://hitwebcounter.com/counter/counter.php?page=7840983&style=0025&nbdigits=5&type=page&initCount=0"
+                        title="Free Counter" Alt="web counter" border="0" />
+                </a>
+                <p>Views in this website.</p>
+            </div>
+        -->
         <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="material-icons">
                 arrow_circle_up
             </span></button>
@@ -57,18 +59,20 @@
                 document.documentElement.scrollTop = 0;
             }
         </script>
-        <div class=col-2>
-            <div class="logo">
-                <img src="https://ik.imagekit.io/3fweuuzz5od/main_XHfqGdXp9.png"><br><br><br><br><br><br>
+        <div class=row>
+            <div class=col-2>
+                <div class="logo">
+                    <img src="https://ik.imagekit.io/3fweuuzz5od/main_XHfqGdXp9.png"><br><br><br><br><br><br>
+                </div>
+                {% include navigation_main.html %}
             </div>
-            {% include navigation_main.html %}
+            <div class=col-10>
+                {{ content }}
+            </div>
         </div>
-        <div class=col-10>
-            {{ content }}
+        <div class="footer row">
+            {% include footer.html %}
         </div>
-    </div>
-    <div class="footer row">
-        {% include footer.html %}
     </div>
 </body>
 

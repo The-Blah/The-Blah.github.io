@@ -1,4 +1,4 @@
-pages:
+main_pages:
   - name: Home
     link: /
   - name: About
