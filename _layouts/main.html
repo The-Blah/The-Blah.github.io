@@ -8,12 +8,9 @@
 
     <title>{{ page.title }}</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <!--
-        <link rel="shortcut icon" href="favicon.ico"
-    -->
+    <link rel="shortcut icon" href="favicon.ico">
 </head>
 
 <body onload="myFunction()" style="margin:0;">
@@ -66,9 +63,12 @@
             </div>
             {% include navigation_main.html %}
         </div>
-        <div class="col-10">
+        <div class=col-10>
             {{ content }}
         </div>
+    </div>
+    <div class="footer row">
+        {% include footer.html %}
     </div>
 </body>
 

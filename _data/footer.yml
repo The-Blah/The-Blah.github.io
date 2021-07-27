@@ -1,0 +1,19 @@
+pages:
+  - name: Home
+    link: /
+  - name: About
+    link: /about.html
+  - name: Editions
+    link: /editions.html
+  - name: Changelog
+    link: /changelog.html
+
+articles:
+  - name: Test
+    link: /
+
+contact:
+  - name: Email
+    link: mailto:the8thgradeblah@gmail.com
+  - name: Feedback
+    link: /feedback.html

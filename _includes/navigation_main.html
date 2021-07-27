@@ -1,7 +1,25 @@
 <nav>
-    <ul class=ulthingy>
-    {% for item in site.data.navigation_main %}
-        <li {% if page.url == item.link %}class="active"{% endif %}><a href="{{ item.link }}">{{ item.name }}</a></li>
-    {% endfor %}
+    <ul class=navigation>
+    {% if page.dir == "/" %}
+        {% for item in site.data.navigation_main.main %}
+        <li {% if page.url==item.link %}class="active" {% endif %}><a href="{{ item.link }}">{{ item.name }}</a></li>
+        {% endfor %}
+    {% elsif page.dir == "'edition1/" %}
+    <!--
+    Edition 1
+    -->
+    {% elsif page.dir == "/edition2/" %}
+    <!--
+    Edition 2
+    -->
+    {% elsif page.dir == "/edition3/" %}
+    <!--
+    Edition 3
+    -->
+    {% elsif page.dir == "/edition4/" %}
+    <!--
+    Edition 4
+    -->
+    {% endif %}
     </ul>
 </nav>

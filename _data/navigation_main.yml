@@ -1,8 +1,9 @@
-- name: Home
-  link: /index.html
-- name: About Us
-  link: /about.html
-- name: Editions
-  link: /editions.html
-- name: Feedback
-  link: /feedback.html
+main: 
+  - name: Home
+    link: /
+  - name: About Us
+    link: /about.html
+  - name: Editions
+    link: /editions.html
+  - name: Feedback
+    link: /feedback.html
