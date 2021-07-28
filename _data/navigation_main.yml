@@ -7,3 +7,8 @@ main:
     link: /editions.html
   - name: Feedback
     link: /feedback.html
+edition1:
+  - name: Test
+    link: /edition1/test.html
+  - name: Test 2
+    link: /edition1/test2.html
