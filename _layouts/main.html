@@ -40,7 +40,7 @@
         <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="material-icons">
                 arrow_circle_up
             </span></button>
-        <script>
+        <!--<script>
             var mybutton = document.getElementById("myBtn");
             window.onscroll = function () {
                 scrollFunction()
@@ -58,15 +58,15 @@
                 document.body.scrollTop = 0;
                 document.documentElement.scrollTop = 0;
             }
-        </script>
+        </script>-->
         <div class=row>
-            <div class=col-2>
+            <div class=col-3>
                 <div class="logo">
                     <img src="https://ik.imagekit.io/3fweuuzz5od/main_XHfqGdXp9.png"><br><br><br><br><br><br>
                 </div>
                 {% include navigation_main.html %}
             </div>
-            <div class=col-10>
+            <div class=col-9>
                 {{ content }}
             </div>
         </div>
