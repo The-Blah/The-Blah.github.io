@@ -5,24 +5,26 @@
         <li {% if page.url==item.link %}class="active" {% endif %}><a href="{{ item.link }}">{{ item.name }}</a></li>
         {% endfor %}
 
-        {% elsif page.dir == "/edition1/" %}
-        <li><a href="/">Back to Main</a></li>
-        {% for item in site.data.navigation_main.edition1 %}
-        <li {% if page.url==item.link %}class="active" {% endif %}><a href="{{ item.link }}">{{ item.name }}</a></li>
-        {% endfor %}
+        {% else %}
+            <li><a href="/">Back to Main</a></li>
+            {% if page.dir == "/edition1/" %}
+            {% for item in site.data.navigation_main.edition1 %}
+            <li {% if page.url==item.link %}class="active" {% endif %}><a href="{{ item.link }}">{{ item.name }}</a></li>
+            {% endfor %}
 
-        {% elsif page.dir == "/edition2/" %}
-        <!--
-            Edition 2
-        -->
-        {% elsif page.dir == "/edition3/" %}
-        <!--
-            Edition 3
-        -->
-        {% elsif page.dir == "/edition4/" %}
-        <!--
-            Edition 4
-        -->
+            {% elsif page.dir == "/edition2/" %}
+            <!--
+                    Edition 2
+                -->
+            {% elsif page.dir == "/edition3/" %}
+            <!--
+                    Edition 3
+                -->
+            {% elsif page.dir == "/edition4/" %}
+            <!--
+                    Edition 4
+                -->
+            {% endif %}
         {% endif %}
     </ul>
 </nav>
