@@ -18,6 +18,8 @@ title: Changelog
 
 • Domain name changed to reflect the name changes. `tegblah.github.io` will not work anymore.
 
+• Changed the format of changelog and the version numbers.
+
 ## v1.4
 • Release of The Blah Edition 4.
 • Added counters for number of views.
