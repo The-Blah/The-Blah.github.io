@@ -8,7 +8,134 @@ main:
   - name: Feedback
     link: /feedback.html
 edition1:
-  - name: Test
-    link: /edition1/test.html
-  - name: Test 2
-    link: /edition1/test2.html
+  - name: The Boy Without A Face
+    link: /edition1/boywithoutaface.html
+  - name: Feminism and It's Importance
+    link: /edition1/feminismandimportance.html
+  - name: Ridiculous Minecraft Seeds
+    link: /edition1/minecraftseed.html
+  - name: Movie Review
+    link: /edition1/moviereview.html
+  - name: Poems
+    link: /edition1/poems.html
+  - name: Preserving Revers
+    link: /edition1/rivers.html
+  - name: You Didn't Know That...
+    link: /edition1/ydkt.html
+edition2:
+  - name: Beginning or End?
+    link: /edition2/beginningorend.html
+  - name: The Dark Side of K-Pop
+    link: /edition2/darksideofkpop.html
+  - name: A Day Without Tech
+    link: /edition2/daywithouttech.html
+  - name: The Impact of Lockdown
+    link: /edition2/impactoflockdown.html
+  - name: The Importance of Animals
+    link: /edition2/importanceofanimals.html
+  - name: Invention of the First Aircraft
+    link: /edition2/inventionoffirstaircraft.html
+  - name: Poems
+    link: /edition2/poems.html
+  - name: Recipe Corner
+    link: /edition2/recipecorner.html
+  - name: Show Review
+    link: /edition2/showreview.html
+  - name: Television
+    link: /edition2/television.html
+  - name: You Didn't Know That...
+    link: /edition2/ydkt.html
+edition3:
+  - name: Artificial Intelligence
+    link: /edition3/ai.html
+  - name: Banknotes
+    link: /edition3/bkatw.html
+  - name: A Century Ahead
+    link: /edition3/centuryahead.html
+  - name: Guest Contributions
+    link: /edition3/guestcontrb.html
+  - name: Hacking - The Truth
+    link: /edition3/hacking.html
+  - name: Poems
+    link: /edition3/poems.html
+  - name: Recipe Corner
+    link: /edition3/recipe.html
+  - name: Role Model
+    link: /edition3/rolemodel.html
+  - name: World News
+    link: /edition3/worldnews.html
+  - name: You Didn't Know That
+    link: /edition3/ydkt.html
+  - name: Your Life
+    link: /edition3/yourlife.html
+  - name: Photography
+    link: /edition3/photography.html
+  - name: Blah's Got Talent
+    link: /edition3/bgt.html
+edition4:
+  - name: A Century Ahead
+    link: /edition4/centuryahead.html
+  - name: Puzzle Competition
+    link: /edition4/competition.html
+  - name: First Music Concert
+    link: /edition4/firstmusicconcert.html
+  - name: How Coding Changed My Life
+    link: /edition4/howcodingchangedmylife.html
+  - name: Interview
+    link: /edition4/interview.html
+  - name: Nikola Tesla
+    link: /edition4/nikolatesla.html
+  - name: Photography
+    link: /edition4/photography.html
+  - name: Poems
+    link: /edition4/poems.html
+  - name: Puzzle Corner
+    link: /edition4/puzzle.html
+  - name: Real Superheroes
+    link: /edition4/realheroes.html
+  - name: Recipe Corner
+    link: /edition4/recipe.html
+  - name: Seventh August
+    link: /edition4/seventhaugust.html
+  - name: Blah's Got Talent
+    link: /edition4/talent.html
+  - name: Time for Crime
+    link: /edition4/tfc.html
+  - name: Traumatic Demise
+    link: /edition4/thetraumaticdemise.html
+  - name: Universe
+    link: /edition4/universe.html
+  - name: When the World...
+    link: /edition4/whentheworldgivesyou.html
+  - name: You Didn't Know That
+    link: /edition4/ydkt.html
+edition5:
+  - name: A Century Ahead
+    link: /edition5/centuryahead.html
+  - name: The Fall of Indian GDP
+    link: /edition5/fallofgdp.html
+  - name: Forest Man
+    link: /edition5/forestman.html
+  - name: Guest Contribution
+    link: /edition5/guestcontrbs.html
+  - name: IP Addresses
+    link: /edition5/ipaddress.html
+  - name: Knights of The Dark
+    link: /edition5/knightsofthedark.html
+  - name: What does mindless scrolling do?
+    link: /edition5/mindlessscrolling.html
+  - name: Mysterious Happenings
+    link: /edition5/mysterioushappenings.html
+  - name: Time for Crime
+    link: /edition5/tfc.html
+  - name: World War I
+    link: /edition5/ww1.html
+  - name: You Didn't Know That
+    link: /edition5/ydkt.html
+  - name: Blah's Got Talent
+    link: /edition5/talent.html
+  - name: Photography
+    link: /edition5/photography.html
+  
+
+  

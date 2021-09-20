@@ -7,11 +7,7 @@ main_pages:
     link: /editions.html
   - name: Changelog
     link: /changelog.html
-
-articles:
-  - name: Test
-    link: /
-
+    
 contact:
   - name: Email
     link: mailto:the8thgradeblah@gmail.com

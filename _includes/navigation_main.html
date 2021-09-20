@@ -2,28 +2,56 @@
     <ul class=navigation>
         {% if page.dir == "/" %}
         {% for item in site.data.navigation_main.main %}
-        <li {% if page.url==item.link %}class="active" {% endif %}><a href="{{ item.link }}">{{ item.name }}</a></li>
+            {% if page.url == item.link %}
+            <li class="active"><a href="{{ item.link }}">{{ item.name }}</a></li>
+            {% else %}
+            <li><a href="{{ item.link }}">{{item.name}}</a></li>
+            {% endif %}
         {% endfor %}
 
         {% else %}
             <li><a href="/">Back to Main</a></li>
             {% if page.dir == "/edition1/" %}
-            {% for item in site.data.navigation_main.edition1 %}
-            <li {% if page.url==item.link %}class="active" {% endif %}><a href="{{ item.link }}">{{ item.name }}</a></li>
-            {% endfor %}
+                {% for item in site.data.navigation_main.edition1 %}
+                    {% if page.url == item.link %}
+                        <li class="active"><a href="{{ item.link }}">{{ item.name }}</a></li>
+                    {% else %}
+                        <li><a href="{{ item.link }}">{{item.name}}</a></li>
+                    {% endif %}
+                {% endfor %}
 
             {% elsif page.dir == "/edition2/" %}
-            <!--
-                    Edition 2
-                -->
+                {% for item in site.data.navigation_main.edition2 %}
+                    {% if page.url == item.link %}
+                        <li class="active"><a href="{{ item.link }}">{{ item.name }}</a></li>
+                    {% else %}
+                        <li><a href="{{ item.link }}">{{item.name}}</a></li>
+                    {% endif %}
+                {% endfor %}
             {% elsif page.dir == "/edition3/" %}
-            <!--
-                    Edition 3
-                -->
+                {% for item in site.data.navigation_main.edition3 %}
+                    {% if page.url == item.link %}
+                        <li class="active"><a href="{{ item.link }}">{{ item.name }}</a></li>
+                    {% else %}
+                        <li><a href="{{ item.link }}">{{item.name}}</a></li>
+                    {% endif %}
+                {% endfor %}
             {% elsif page.dir == "/edition4/" %}
-            <!--
-                    Edition 4
-                -->
+                {% for item in site.data.navigation_main.edition4 %}
+                    {% if page.url == item.link %}
+                        <li class="active"><a href="{{ item.link }}">{{ item.name }}</a></li>
+                    {% else %}
+                        <li><a href="{{ item.link }}">{{item.name}}</a></li>
+                    {% endif %}
+                {% endfor %}
+            {% elsif page.dir == "/edition5/" %}
+                {% for item in site.data.navigation_main.edition5 %}
+                    {% if page.url == item.link %}
+                        <li class="active"><a href="{{ item.link }}">{{ item.name }}</a></li>
+                    {% else %}
+                        <li><a href="{{ item.link }}">{{item.name}}</a></li>
+                    {% endif %}
+                {% endfor %}
             {% endif %}
         {% endif %}
     </ul>
