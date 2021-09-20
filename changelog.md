@@ -1,300 +1,86 @@
 ---
 layout: main
-title: Website Development Changelog
-description: List of description, dates and authors for each change in the website.
+title: Changelog
 ---
 
-<style>
-            table,
-        th,
-        td {
-            border: 1px solid lightblue;
-            border-collapse: collapse;
-            text-align: center;
-            padding: 10px;
-            margin-bottom: 20px;
-        }
+<h1 style="font-size: 43px; text-align: center; margin-top: 17%;">
+    ═══════<br>Changelog<br>═══════
+</h1>
 
-        th {
-            font-size: 20px;
-        }
+## v2.0
+• Re-wrote the entire website's backend to support the Jekyll Engine. Maintanence and updates will be easier. (Time taken: Almost a month)
 
-        #changelogdiv {
-            display: none;
-        }
+• Rebranding of The 8th Grade Blah to The Blah.
 
-        @media only screen and (max-width: 768px) {
+• Changed logo and brand colors.
 
-            table,
-            th,
-            td {
-                display: none;
-            }
+• Release of The Blah Edition 5.
 
-            #changelogdiv {
-                display: block;
-            }
-        }
-</style>
+• Domain name changed to reflect the name changes. `tegblah.github.io` will not work anymore.
 
-<header>
-    <h1 style="font-size: 50px; text-align: center; margin-top: 17%;">═══════<br>
-        Development Changelog<br>═══════<br></h1>
-</header>
-<article>
-    <table>
-        <tr>
-            <th>Version</th>
-            <th>Description</th>
-            <th>Developer</th>
-            <th>Date</th>
-        </tr>
-        <tr>
-            <td>v0.1</td>
-            <td>First version, basic coding and design.</td>
-            <td>Rahul</td>
-            <td>21 May 2021</td>
-        </tr>
-        <tr>
-            <td>v0.2</td>
-            <td>Changed background and removed top navbar, added sidebar.</td>
-            <td>Rahul</td>
-            <td>21 May 2021</td>
-        </tr>
-        <tr>
-            <td>v0.3</td>
-            <td>Added first few articles of Edition 1.</td>
-            <td>Rahul</td>
-            <td>21 May 2021</td>
-        </tr>
-        <tr>
-            <td>v1.0</td>
-            <td>Added last articles of Edition 1. Published website.</td>
-            <td>Rahul/Aravindaksha</td>
-            <td>21 May 2021</td>
-        </tr>
-        <tr>
-            <td>v1.0.1</td>
-            <td>Font changed to Roboto, color scheme changed to light mode and optimised for mobiles
-                (using media queries and grids).</td>
-            <td>Aravindaksha</td>
-            <td>22 May 2021</td>
-        </tr>
-        <tr>
-            <td>v1.0.1a</td>
-            <td>Font changed to Raleway.</td>
-            <td>Aravindaksha</td>
-            <td>22 May 2021</td>
-        </tr>
-        <tr>
-            <td>v1.0.2</td>
-            <td>Color scheme now changes according to OS color scheme (If the computer is set to dark
-                mode, so is the website, and vice versa).</td>
-            <td>Aravindaksha</td>
-            <td>23 May 2021</td>
-        </tr>
-        <tr>
-            <td>v1.0.2a</td>
-            <td>Dark mode borders fixed, color changed to white.</td>
-            <td>Aravindaksha</td>
-            <td>23 May 2021</td>
-        </tr>
-        <tr>
-            <td>v1.0.3</td>
-            <td>Scroll-back-top button appears when user scrolls below a certain level.</td>
-            <td>Aravindaksha</td>
-            <td>23 May 2021</td>
-        </tr>
-        <tr>
-            <td>v1.0.4</td>
-            <td>Added footers containing information.</td>
-            <td>Aravindaksha</td>
-            <td>24 May 2021</td>
-        </tr>
-        <tr>
-            <td>v1.0.5</td>
-            <td>Added changelog page. Accessible via footer.</td>
-            <td>Aravindaksha</td>
-            <td>24 May 2021</td>
-        </tr>
-        <tr>
-            <td>v1.0.6</td>
-            <td>Added a smooth scroll effect when clicking on scroll-back-top button. ONLY WORKS ON
-                CHROME 61+, FIREFOX 36+ AND EDGE 79+ ON DESKTOP AND CHROME 90+ FIREFOX 87+ ON MOBILE.
-            </td>
-            <td>Aravindaksha</td>
-            <td>24 May 2021</td>
-        </tr>
+## v1.4
+• Release of The Blah Edition 4.
+• Added counters for number of views.
 
-        <tr>
-            <td>v1.1</td>
-            <td>Release of Edition 2.</td>
-            <td>Rahul and Aravindaksha</td>
-            <td>8 June 2021</td>
-        </tr>
-        <tr>
-            <td>v1.1.1</td>
-            <td>Updated the GitHub ReadMe File. (Not Website Change)</td>
-            <td>Rahul</td>
-            <td>9 June 2021</td>
-        </tr>
-        <tr>
-            <td>v1.1.2</td>
-            <td>Sourced all the photos from the cloud making the website faster!</td>
-            <td>Rahul</td>
-            <td>11 June 2021</td>
-        </tr>
-        <tr>
-            <td>v1.1.3</td>
-            <td>Made the sidebar edges a bit rounded so that it doesn't look all too plain!</td>
-            <td>Rahul</td>
-            <td>14 June 2021</td>
-        </tr>
-        <tr>
-            <td>1.2</td>
-            <td>Release of Edition 3</td>
-            <td>Rahul and Aravindaksha</td>
-            <td>29 June 2021</td>
-        </tr>
-        <tr>
-            <td>1.2.1</td>
-            <td>Added rounded corners to the main logo and the homepage logo.</td>
-            <td>Rahul</td>
-            <td>01 July 2021</td>
-        </tr>
-        <tr>
-            <td>1.2.2</td>
-            <td>Added the same header decoration for all articles.</td>
-            <td>Rahul</td>
-            <td>01 July 2021</td>
-        </tr>
-        <tr>
-            <td>1.2.2a</td>
-            <td>Added "Back to Main" button for Edition 3. (Bug Fix)</td>
-            <td>Rahul</td>
-            <td>01 July 2021</td>
-        </tr>
-        <tr>
-            <td>1.3</td>
-            <td>Release of Edition 4.</td>
-            <td>Aravindaksha</td>
-            <td>18 July 2021</td>
-        </tr>
-    </table>
-    <div id="changelogdiv">
-        <p class=changelogpara>
-            <b>Version: </b><span class="changelogspan" style="font-size: 30px">v0.1</span><br>
-            <b>Description: </b>First version, basic coding and design.<br>
-            <b>Developer: </b>Rahul<br>
-            <b>Date: </b>21 May 2021<br><br><br>
+## v1.3.2a (Bug Fix)
+• Added "Back to Main" button for Edition 3.
 
-            <b>Version: </b><span class="changelogspan" style="font-size: 30px">v0.2</span><br>
-            <b>Description: </b>Changed background and removed top navbar, added sidebar.<br>
-            <b>Developer: </b>Rahul<br>
-            <b>Date: </b>21 May 2021<br><br><br>
+## v1.3.2
+• Added same header decoration to all articles.
 
-            <b>Version: </b><span class="changelogspan" style="font-size: 30px">v0.3</span><br>
-            <b>Description: </b>Added first few articles of Edition 2.</td><br>
-            <b>Developer: </b>Rahul<br>
-            <b>Date: </b>21 May 2021<br><br><br>
+## v1.3.1
+• Added rounded corners to main logo and homepage logo.
 
-            <b>Version: </b><span class="changelogspan" style="font-size: 30px">v1.0</span><br>
-            <b>Description: </b>Added last articles of Edition12. Published website.<br>
-            <b>Developer: </b>Rahul/Aravindaksha<br>
-            <b>Date: </b>21 May 2021<br><br><br>
+## v1.3
+• Release of The Blah Edition 3.
 
-            <b>Version: </b><span class="changelogspan" style="font-size: 30px">v1.0.1</span><br>
-            <b>Description: </b>Font changed to Roboto, color scheme changed to light mode and optimised
-            for mobiles (using media queries and grids).<br>
-            <b>Developer: </b>Aravindaksha<br>
-            <b>Date: </b>22 May 2021<br><br><br>
+## v1.2.3
+• Made sidebar edges a bit rounded.
 
-            <b>Version: </b><span class="changelogspan" style="font-size: 30px">v1.0.1a</span><br>
-            <b>Description: </b>Font changed to Raleway.<br>
-            <b>Developer: </b>Aravindaksha<br>
-            <b>Date: </b>22 May 2021<br><br><br>
+## v1.2.2
+• Sourced most photos from the cloud to make the website faster.
 
-            <b>Version: </b><span class="changelogspan" style="font-size: 30px">v1.0.2</span><br>
-            <b>Description: </b>Color scheme now changes according to OS color scheme (If the computer
-            is set to dark mode, so is the website, and vice versa).<br>
-            <b>Developer: </b>Aravindaksha<br>
-            <b>Date: </b>23 May 2021<br><br><br>
+## v1.2.1
+• Updated GitHub ReadMe file (not a website change).
 
-            <b>Version: </b><span class="changelogspan" style="font-size: 30px">v1.0.2a</span><br>
-            <b>Description: </b>Dark mode borders fixed, color changed to white.<br>
-            <b>Developer: </b>Aravindaksha<br>
-            <b>Date: </b>23 May 2021<br><br><br>
+## v1.2
+• Release of The Blah Edition 2.
 
-            <b>Version: </b><span class="changelogspan" style="font-size: 30px">v1.0.3</span><br>
-            <b>Description: </b>Scroll-back-top button appears when user scrolls below a certain
-            level.<br>
-            <b>Developer: </b>Aravindaksha<br>
-            <b>Date: </b>23 May 2021<br><br><br>
+## v1.1.6
+• Added a smooth scroll effect when clicking on scroll-back-top button. ONLY WORKS ON CHROME 61+, FIREFOX 36+ AND EDGE 79+ ON DESKTOP AND CHROME 90+ FIREFOX 87+ ON MOBILE.
 
-            <b>Version: </b><span class="changelogspan" style="font-size: 30px">v1.0.4</span><br>
-            <b>Description: </b>Added footers containing information.<br>
-            <b>Developer: </b>Aravindaksha<br>
-            <b>Date: </b>24 May 2021<br><br><br>
+## v1.1.5
+• Added changelog page which is accessible via the footer.
 
-            <b>Version: </b><span class="changelogspan" style="font-size: 30px">v1.0.5</span><br>
-            <b>Description: </b>Added changelog page. Accessible via footer.<br>
-            <b>Developer: </b>Aravindaksha<br>
-            <b>Date: </b>24 May 2021<br><br><br>
+## v1.1.4
+• Added footers containing information.
 
-            <b>Version: </b><span class="changelogspan" style="font-size: 30px">v1.0.6</span><br>
-            <b>Description: </b>Added a smooth scroll effect when clicking on scroll-back-top button.
-            ONLY WORKS ON CHROME 61+, FIREFOX 36+ AND EDGE 79+ ON DESKTOP AND CHROME 90+ FIREFOX 87+ ON
-            MOBILE.<br>
-            <b>Developer: </b>Aravindaksha<br>
-            <b>Date: </b>24 May 2021<br><br><br>
+## v1.1.3
+• Added scroll-back-top button which shows up if the users scrolls below a certain level.
 
-            <b>Version: </b><span class="changelogspan" style="font-size: 30px">v1.1</span><br>
-            <b>Description: </b>Release of Edition 3.<br>
-            <b>Developer: </b>Rahul and Aravindaksha<br>
-            <b>Date: </b>8 June 2021<br><br><br>
+## v1.1.2a (Bug Fix)
+• Dark-mode borders fixed, color changed to white for more visibility.
 
-            <b>Version: </b><span class="changelogspan" style="font-size: 30px">v1.1.1</span><br>
-            <b>Description: </b>Updated the GitHub ReadMe File. (Not Website Change)<br>
-            <b>Developer: </b>Rahul<br>
-            <b>Date: </b>9 June 2021<br><br><br>
+## v1.1.2
+• Color scheme now changes according to OS color scheme (If the computer is set to dark mode, so is the website, and vice versa).
 
-            <b>Version: </b><span class="changelogspan" style="font-size: 30px">v1.1.2</span><br>
-            <b>Description: </b>Sourced all the photos from the cloud making the website faster!<br>
-            <b>Developer: </b>Rahul<br>
-            <b>Date: </b>11 June 2021<br><br><br>
+## v1.1.1a
+• Font changed to Raleway.
 
+## v1.1.1
+• Font changed to Roboto, color scheme changed to light mode and optimised for mobiles (CSS Grids).
 
-            <b>Version: </b><span class="changelogspan" style="font-size: 30px">v1.1.3</span><br>
-            <b>Description: </b>Made the sidebar edges a bit rounded so that it doesn't look all too
-            plain!<br>
-            <b>Developer: </b>Rahul<br>
-            <b>Date: </b>14 June 2021<br><br><br>
+## v1.1
+• Release of The Blah Edition 1
 
-            <b>Version: </b><span class="changelogspan" style="font-size: 30px">v1.2</span><br>
-            <b>Description: </b>Release of Edition 3.<br>
-            <b>Developer: </b>Rahul and Aravindaksha<br>
-            <b>Date: </b>29 June 2021<br><br><br>
+## v1.0
+• Final changes to Edition 1, first stable version of website.
 
-            <b>Version: </b><span class="changelogspan" style="font-size: 30px">v1.2.1</span><br>
-            <b>Description: </b>Added rounded corners to the main logo and the homepage logo.<br>
-            <b>Developer: </b>Rahul<br>
-            <b>Date: </b>01 July 2021<br><br><br>
+## v0.3
+• Added first few articles.
 
-            <b>Version: </b><span class="changelogspan" style="font-size: 30px">v1.2.2</span><br>
-            <b>Description: </b>Added the same header decoration for all articles.<br>
-            <b>Developer: </b>Rahul<br>
-            <b>Date: </b>01 July 2021<br><br><br>
+## v0.2
+• Changed background and removed top navbar, added side navbar.
 
-            <b>Version: </b><span class="changelogspan" style="font-size: 30px">v1.2.2a</span><br>
-            <b>Description: </b>Added "Back to Main" button for Edition 3. (Bug Fix)<br>
-            <b>Developer: </b>Rahul<br>
-            <b>Date: </b>01 July 2021<br><br><br>
-
-            <b>Version: </b><span class="changelogspan" style="font-size: 30px">v1.3</span><br>
-            <b>Description: </b>Release of Edition 4.<br>
-            <b>Developer: </b>Aravindaksha<br>
-            <b>Date: </b>18 July 2021<br><br><br>
-
-        </p>
-    </div>
-</article>
+## v0.1
+• Basic coding and design.
