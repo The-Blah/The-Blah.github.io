@@ -1,6 +1,6 @@
 ---
 layout: article
-title: The forest man of India
+title: The Forest Man of India
 author: Shradha
 ---
 
