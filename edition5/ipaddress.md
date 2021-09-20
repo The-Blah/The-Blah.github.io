@@ -6,18 +6,18 @@ author: Aravindaksha
 
 *You may come across many advertisements asking you to download their products and "hide" your IP Address, but have you ever wondered what it  ACTUALLY is and why you have to hide it?*
 
- Definition of IP
+### Definition of IP
 The term IP Address is short for *Internet Protocol Address*. The Internet Protocol is a set of rules which govern the format of data sent through any network, and it finds the route for the data.
 
- Definition of IP Address
+### Definition of IP Address
 Our home address identifies where we live and it contains the house number, street name, locality, etc. Likewise, IP Addresses locate a device over the internet, it is the identifier that allows data to be transmitted with the previously defined Internet Protocol. The internet needs a way to differentiate between computers and these addresses provides it.
 
- What is the format of an IP Address
+### What is the format of an IP Address
 An IP Address is a set of 4 numbers seperated with periods, each of them ranging from 0 - 255 (Example: 192.168.1.1).
 Thefore, the full range for this goes from 0.0.0.0 to 255.255.255.255
 IP Addresses are NOT random, but they are allocated mathematically by the Internet Assigned Numbers authority (IANA), which is a division of the Internet Corporation for Assigned Names and Numbers (ICANN).
 
-Now, to the fun part...
+*Now, to the fun part...*
 
 ### How do IP Addresses actually work?
 The Internet Protocol works similar to any language, spoken by humans or computers. It communicates using a set of guidelines to pass the information (or data). All devices use this same language, so any computer in any place can talk to each other. 
