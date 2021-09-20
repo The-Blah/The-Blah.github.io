@@ -1,6 +1,7 @@
 ---
 layout: main
 title: Changelog
+description: The changelog for the website.
 ---
 
 <h1 style="font-size: 43px; text-align: center; margin-top: 17%;">
