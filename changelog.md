@@ -8,6 +8,9 @@ description: The changelog for the website.
     ═══════<br>Changelog<br>═══════
 </h1>
 
+## v2.0.1
+• Fixed a lot of bugs
+
 ## v2.0
 • Re-wrote the entire website's backend to support the Jekyll Engine. Maintanence and updates will be easier. (Time taken: Almost a month)
 

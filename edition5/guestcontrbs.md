@@ -14,8 +14,7 @@ Then you make a deliverance that you should just probably give up...but then
 Instantaneously realising that you made a new topic you try to make a blog about it
 You search the topic on google and see if anyone wrote about it, and you see: 
 
-
-
+<img src="https://media.discordapp.net/attachments/854323811594534932/889150830220046356/unknown.png" alt="guestpic">
 
 You click on the topmost link and it takes you to a page with a 1000 lines full of gibber gabber
 You are perplexing so hard not to press ctrl+c and paste it on word.

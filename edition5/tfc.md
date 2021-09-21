@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Time for crime- puzzle
+title: Time for crime - Puzzle
 author: Sansskrithi
 ---
 
@@ -15,12 +15,17 @@ At a distance I could see the cook, maid and the nurse rushing into the house. T
 
 While the interrogation continued I spotted something that made my heart crumble with betrayal and shock. I saw a box of French pastries in my brother’s bag while searching for the milk bottle for my niece. I ran towards my brother and asked confronted him. He said that he had bought it in a shop in California and had bought it for my mother since she loves French pastries. It wasn’t exactly convincing. So, I had created my own suspect list and it is as follows.
 
-Cook- An easy suspect, there's a good chance that she had made the eclairs and poisoned them but her motive was unclear. She was always asking for a raise, maybe that could have been the motive  but I’m not so sure. Family says she was there with them the whole time but they could be lying.
+Cook - An easy suspect, there's a good chance that she had made the eclairs and poisoned them but her motive was unclear. She was always asking for a raise, maybe that could have been the motive  but I’m not so sure. Family says she was there with them the whole time but they could be lying.
 
-Grandma- She owns a bakery, hence excelled at making French pastries. She had always held a grudge on my mother but I’m not sure if she would go to this extent, though she could have. Has no alibi.
+<img src="https://media.discordapp.net/attachments/854323811594534932/888807686404190228/Screenshot_20210918-192839.png" alt="cook pic" style="width: 20%; height: auto; text-align: center; display: block; margin: 0 auto;">
 
-Brother- Had come half an hour before I did so had plenty of time to go and give my mother the pastry. Maybe he lied about not having a key...my sister-in-law claims that she was feeding the baby and had gone to the neighbor's house and had come back just a minute before I did. Has no alibi and no motive.
+Grandma - She owns a bakery, hence excelled at making French pastries. She had always held a grudge on my mother but I’m not sure if she would go to this extent, though she could have. Has no alibi.
+
+<img src="https://media.discordapp.net/attachments/854323811594534932/888807612886433913/Screenshot_20210918-163542.png" alt="grandma pic" style="width: 20%; height: auto; text-align: center; display: block; margin: 0 auto;">
+
+Brother - Had come half an hour before I did so had plenty of time to go and give my mother the pastry. Maybe he lied about not having a key...my sister-in-law claims that she was feeding the baby and had gone to the neighbor's house and had come back just a minute before I did. Has no alibi and no motive.
+
+<img src="https://media.discordapp.net/attachments/854323811594534932/888807778188136508/Screenshot_20210918-173923.png" alt="brother pic" style="width: 20%; height: auto; text-align: center; display: block; margin: 0 auto;">
 
 Detectives, The case is yours to solve! Who do you think murderer is? Get your thinking caps on and crack this case. 
-Either mail it to us at- theblah2021@gmail.com
-or fill this form out- https://forms.office.com/r/DQEG3cktg1
+Either mail it to us at- theblah2021@gmail.com or fill [this](https://forms.office.com/r/DQEG3cktg1) form out!

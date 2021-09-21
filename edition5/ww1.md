@@ -1,7 +1,7 @@
 ---
 layout: article
 title: World War 1 | How the war broke out
-author: Vankat
+author: Venkat
 ---
 
  The year 1914 has come. Technology, inventions, culture and fashion have come to a new height. Though all this was happening, everyone knew that there was a war coming up. France wanted parts of Germany that Germany took over and the Ottoman Empire and Austria Hungary invaded very small nations. The Russians did help a few Balkan states like Serbia, Albania and Montenegro to gain independence from the Austro-Hungarian empire which obviously made Austria-Hungary very angry. The country of present day Bosnia and Herzegovina which was part of the Austro-Hungarian empire back in 1914 was very hated by the Bosnians.
