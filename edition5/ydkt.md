@@ -17,6 +17,6 @@ author: Aravindaksha
 11. On one slow-news day in April 18, 1930, a BBC radio broadcaster blatantly said "there is no news"!
 12. Nepal has the most mathematical flag in the world. The consitution even consists details about the steps of drawing the flag!
 13. The word "velociraptor" comes from the Latin words "velox" meaning swift, and "raptor" meaning robber - literally meaning Swift Robber!
-14. Mona Lisa was stolen from the Louvre in 1911, which drew moer visitors to see the empty space than than the actual painting!
+14. Mona Lisa was stolen from the Louvre in 1911, which drew more visitors to see the empty space than the actual painting!
 15. In 2005, the US State of Connecticut was accidentally issued an Emergency Alert to evacuate the entire state, however, only 1% of the entire population of the state tried to leave!
 
