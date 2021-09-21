@@ -24,6 +24,8 @@ description: The changelog for the website.
 
 • Changed the format of changelog and the version numbers.
 
+• The icon on the top-left (or top in mobiles) now also acts as a link to home.
+
 ## v1.4
 • Release of The Blah Edition 4.
 • Added counters for number of views.
