@@ -10,8 +10,11 @@ description: The changelog for the website.
 
 ## v2.0.2
 • Overhauled many website colors to match the logo colors.
+
 • Scroll-back-top button is now transparent.
+
 • Removed the use of `!important` rules in the CSS StyleSheet.
+
 
 ## v2.0.1
 • Fixed a lot of bugs.
