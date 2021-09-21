@@ -8,8 +8,13 @@ description: The changelog for the website.
     ═══════<br>Changelog<br>═══════
 </h1>
 
+## v2.0.2
+• Overhauled many website colors to match the logo colors.
+• Scroll-back-top button is now transparent.
+• Removed the use of `!important` rules in the CSS StyleSheet.
+
 ## v2.0.1
-• Fixed a lot of bugs
+• Fixed a lot of bugs.
 
 • The Blah Website and it's content are now protected under licenses. Refer to the footer or the [license document](/LICENSE.md) for information.
 
