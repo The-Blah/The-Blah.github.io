@@ -5,6 +5,8 @@ main_pages:
     link: /about.html
   - name: Editions
     link: /editions.html
+  - name: Information
+    link: /information.html
   - name: Changelog
     link: /changelog.html
     
