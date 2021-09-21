@@ -10,6 +10,7 @@ description: The changelog for the website.
 
 ## v2.0.1
 • Fixed a lot of bugs
+• The Blah Website and it's content are now protected under licenses. Refer to the footer or the [license document](/LICENSE.txt) for information.
 
 ## v2.0
 • Re-wrote the entire website's backend to support the Jekyll Engine. Maintanence and updates will be easier. (Time taken: Almost a month)
