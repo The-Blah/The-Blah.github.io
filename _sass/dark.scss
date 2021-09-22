@@ -1,0 +1,46 @@
+body {
+    background-color: #121212;
+    color: #EEE;
+}
+
+ul.navigation a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    border-radius: 5px;
+}
+
+ul.navigation a:hover {
+    background-color: #bdbaba;
+    color: black;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+
+ul.navigation li.active a {
+    background-color: white;
+    color: black;
+    padding: 15px;
+}
+
+.editions-list a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.editions-list a:hover {
+    background-color: #bdbaba;
+    padding: 15px 15px;
+    color: black;
+    transition: 0.6s ease;
+    border-radius: 5px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}

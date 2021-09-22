@@ -8,12 +8,13 @@
 
     <title>{{ page.title }}</title>
 
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/dark-theme.css" class='theme-link'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.ico">
+    <script src="https://kit.fontawesome.com/ebd1a9005a.js" crossorigin="anonymous"></script>
 </head>
 
-<body onload="myFunction()" style="margin:0;">
+<body onload="myFunction()" style="margin:0;" class='dark-theme || light-theme'>
     <script>
         var myVar;
 
@@ -23,11 +24,11 @@
 
         function showPage() {
             document.getElementById("loader").style.display = "none";
-            document.getElementById("myDiv").style.display = "block";
+            document.getElementById("main-div").style.display = "block";
         }
     </script>
     <div id="loader"></div>
-    <div style="display:none;" id=myDiv class="animate-bottom">
+    <div style="display:none;" id="main-div" class="animate-bottom">
         <!--
             <div class=counter>
                 <a href="https://www.hitwebcounter.com" target="_blank">
@@ -37,11 +38,11 @@
                 <p>Views in this website.</p>
             </div>
         -->
-        <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="material-icons">
+        <button onclick="topFunction()" id="scroll-top-btn" title="Go to top"><span class="material-icons">
                 arrow_circle_up
             </span></button>
         <script>
-            var mybutton = document.getElementById("myBtn");
+            var mybutton = document.getElementById("scroll-top-btn");
             window.onscroll = function () {
                 scrollFunction()
             };
@@ -62,7 +63,9 @@
         <div class=row>
             <div class=col-3>
                 <div class="logo">
-                    <a href="/"><img src="/assets/media/The-Blah-Logo.gif" style="border-radius:10%"></a><br><br><br><br><br><br>
+                    <a href="/"><img src="/assets/media/The-Blah-Logo.gif" style="border-radius:10%"></a><br><br><br>
+                    <a><i class="fas fa-adjust fa-2x dark-toggle" style="display: block; text-align: center; margin-bottom: 25%;"></i></a>
+                    <script src="/theme.js"></script>
                 </div>
                 {% include navigation_main.html %}
             </div>

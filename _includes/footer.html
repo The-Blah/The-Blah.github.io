@@ -1,7 +1,7 @@
 <footer>
     <div>
         <div class="col-4 footer-content-division">
-            <p class="footerheader">Pages</p>
+            <p class="footer-header">Pages</p>
             <ul class="navigation">
                 {% for item in site.data.footer.main_pages %}
                 <li><a href="{{ item.link }}">{{ item.name }}</a></li>
@@ -9,7 +9,7 @@
             </ul>
         </div>
         <div class="col-4 footer-content-division">
-            <p class="footerheader">Our Latest Edition</p>
+            <p class="footer-header">Our Latest Edition</p>
             <ul class="navigation">
                 {% for item in site.data.navigation_main.edition5 %}
                 <li><a href="{{ item.link }}">{{ item.name }}</a></li>
@@ -17,7 +17,7 @@
             </ul>
         </div>
         <div class="col-4 footer-content-division">
-            <p class="footerheader">Contact Us</p>
+            <p class="footer-header">Contact Us</p>
             <ul class="navigation">
                 {% for item in site.data.footer.contact %}
                 <li><a href="{{ item.link }}">{{ item.name }}</a></li>
