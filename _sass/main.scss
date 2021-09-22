@@ -180,6 +180,18 @@ ul.navigation li {
     font-feature-settings: 'liga';
 }
 
+.icon-wrapper {
+    display: block;
+    overflow: hidden;
+    display: block; 
+    text-align: center;
+}
+
+.icon-wrapper:hover {
+    transition: 1s;
+    transform: rotateZ(180deg);
+}
+
 /* Start define the CSS Grid */
 
 .row::after {
