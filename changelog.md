@@ -8,6 +8,10 @@ description: The changelog for the website.
     ═══════<br>Changelog<br>═══════
 </h1>
 
+## v2.0.3
+#### by Aravindaksha, 22 September 2021
+• Added dark mode toggle.
+
 ## v2.0.2
 #### by Aravindaksha, 21 September 2021
 • Overhauled many website colors to match the logo colors.
