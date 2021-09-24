@@ -1,26 +1,36 @@
+/* Importing the Raleway font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+/* Setting the font for the style-sheet */
 * {
     font-family: 'Raleway', sans-serif;
+
+    /* Sets how element sizes are calculated; In border-box, width and height properties include content, padding and border */
     box-sizing: border-box;
 }
 
+/* Sets how links scroll to another section in the same page. Useful for scroll-back-top buttons */
 html {
     scroll-behavior: smooth;
 }
 
+/* Sets the colors of most links in the website to The Blah colors */
 a {
     color: #dbb98f;
 }
 
+/* Selects li elements under the navigation class. This class is for the sidebar and footer. */
 ul.navigation li {
+    /* Removes the default bullet list style */
     list-style-type: none;
     font-size: 14px;
-    margin-left: 0px;
     border-radius: 5px;
-    margin: 25px 25px;
+    /* Sets the sizes of the elements to be comfortably spaced */
+    margin: 25px 0px 25px 0px;
     padding: 10px 10px;
 }
 
+/* Selects all elements in the navigation class and aligns them horizontally to the center */
 .navigation {
     margin: 0 auto;
     width: 100%;
@@ -28,77 +38,23 @@ ul.navigation li {
     padding-left: 0;
 }
 
+/* For the counter at the top; It is removed for now */
 .counter {
     display: block;
     text-align: center;
 }
 
+/* Same as above */
 .counter img {
     margin-top: 1%;
 }
 
+/* Selects the 3 footer divisions (Pages, Latest Edition, Contact Us) */
 .footer-content-division {
     margin-left: -1px;
 }
 
-.marquee {
-    height: 50px;
-    overflow: hidden;
-    position: relative;
-    background-color: #dbb98f;
-    border-color: transparent;
-    border-radius: 5px;
-}
-
-.marquee p {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    line-height: 50px;
-    text-align: left;
-    /* Apply animation to this element */
-    -moz-animation: marquee 15s linear infinite;
-    -webkit-animation: marquee 15s linear infinite;
-    animation: marquee 15s linear infinite;
-    color: #533549;
-}
-
-@-moz-keyframes marquee {
-    0% {
-        -moz-transform: translateX(100%);
-    }
-    100% {
-        -moz-transform: translateX(-100%);
-    }
-}
-
-@-webkit-keyframes marquee {
-    0% {
-        -webkit-transform: translateX(100%);
-    }
-    100% {
-        -webkit-transform: translateX(-100%);
-    }
-}
-
-@keyframes marquee {
-    0% {
-        -moz-transform: translateX(100%);
-        /* Firefox bug fix */
-        -webkit-transform: translateX(100%);
-        /* Firefox bug fix */
-        transform: translateX(100%);
-    }
-    100% {
-        -moz-transform: translateX(-100%);
-        /* Firefox bug fix */
-        -webkit-transform: translateX(-100%);
-        /* Firefox bug fix */
-        transform: translateX(-100%);
-    }
-}
-
+/* Centers and resizes the logo which is in every page */
 .logo img {
     display: block;
     width: 80px;
@@ -107,43 +63,28 @@ ul.navigation li {
     text-align: center;
 }
 
+/* Styles the paragraph in home page */
 .home-paragraph {
     font-size: 20px;
     text-align: center;
     margin-bottom: 10%
 }
 
-#scroll-top-btn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    background-color: rgba(119, 119, 119, 0.2);
-    color: #96351e;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
-    transition-duration: .5s;
-}
-
-#scroll-top-btn:hover {
-    background-color: rgba(119, 119, 119, .5);
-}
-
-#scroll-top-btn:active {
-    background-color: rgba(119, 119, 119, 1);
-}
-
+/* Styling for footer headers for each division */
 .footer-header {
     color: #f6b042;
     text-align: center;
     font-size: 30px;
 }
 
+/* General styling for footer */
+.footer {
+    border-radius: 12px 12px 12px 12px;
+    margin: 7%, 1%, 1%, 1%;
+    border: 1px solid #dbb98f;
+}
+
+/* Styling for large logo in main page */
 #main-logo {
     border-radius: 10%;
     display: block;
@@ -151,11 +92,7 @@ ul.navigation li {
     text-align: center;
 }
 
-.footer {
-    border-radius: 12px 12px 12px 12px;
-    margin: 7%, 1%, 1%, 1%;
-    border: 1px solid #dbb98f;
-}
+/* Start define Google Icons */
 
 .material-icons {
     font-family: 'Material Icons';
@@ -180,6 +117,7 @@ ul.navigation li {
     font-feature-settings: 'liga';
 }
 
+
 .icon-wrapper {
     display: block;
     overflow: hidden;
@@ -191,6 +129,107 @@ ul.navigation li {
     transition: 1s;
     transform: rotateZ(180deg);
 }
+
+/* End Define Google Icons */
+
+/* Start define marquee */
+
+/* Marquees are the scrolling text at the top of the main page */
+.marquee {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    background-color: #dbb98f;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+/* Styles the text in the marquee itself */
+.marquee p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: left;
+    /* Apply animation to this element */
+    -moz-animation: marquee 15s linear infinite;
+    -webkit-animation: marquee 15s linear infinite;
+    animation: marquee 15s linear infinite;
+    color: #533549;
+}
+
+/* Defining keyframes for Mozilla for redundancy */
+@-moz-keyframes marquee {
+    0% {
+        -moz-transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+    }
+}
+
+/* Defining keyframes for WebKit browsers for redundancy */
+@-webkit-keyframes marquee {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+    100% {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+/* Standard @keyframes rule */
+@keyframes marquee {
+    0% {
+        -moz-transform: translateX(100%);
+        /* Firefox bug fix */
+        -webkit-transform: translateX(100%);
+        /* Firefox bug fix */
+        transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+        /* Firefox bug fix */
+        -webkit-transform: translateX(-100%);
+        /* Firefox bug fix */
+        transform: translateX(-100%);
+    }
+}
+
+/* End define marquee */
+
+/* Start define scroll-back-top */
+
+/* Sets the styling for the button which appears on the bottom-right corner */
+#scroll-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgba(119, 119, 119, 0.2);
+    color: #96351e;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    transition-duration: .5s;
+}
+
+/* Changes BG color if hovered */
+#scroll-top-btn:hover {
+    background-color: rgba(119, 119, 119, .5);
+}
+
+/* Changes BG color if clicked */
+#scroll-top-btn:active {
+    background-color: rgba(119, 119, 119, 1);
+}
+
+/* End define scroll-back-top */
 
 /* Start define the CSS Grid */
 
