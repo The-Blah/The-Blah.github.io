@@ -1,10 +1,10 @@
 ---
 layout: article
-title: What Actually is an IP Address - Part 1?
+title: What Actually is an IP Address? - Part 1
 author: Aravindaksha
 ---
 
-*You may come across many advertisements asking you to download their products and "hide" your IP Address, but have you ever wondered what it  ACTUALLY is and why you have to hide it?*
+*You may have come across many advertisements asking you to download some security software and "hide" your IP Address, but have you ever wondered what it  ACTUALLY is and why you have to hide it?*
 
 ### Definition of IP
 The term IP Address is short for *Internet Protocol Address*. The Internet Protocol is a set of rules which govern the format of data sent through any network, and it finds the route for the data.
