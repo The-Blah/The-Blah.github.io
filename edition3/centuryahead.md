@@ -1,6 +1,6 @@
 ---
 layout: article
-title: A Century Ahead - Chapter 1
+title: Chapter 1 - A Century Ahead!
 author: Arshitha
 ---
 

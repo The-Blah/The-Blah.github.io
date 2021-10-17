@@ -1,0 +1,312 @@
+---
+layout: article
+title: Blah's Got Talent
+author: The Blah Team
+---
+
+<style>
+    * {
+        box-sizing: border-box
+    }
+
+    img {
+        max-width: 70%;
+        height: 350px;
+        display: block;
+        margin: auto;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+        max-width: 90%;
+        position: relative;
+        margin: auto;
+        border: 1px solid #dbb98f;
+        border-radius: 5px;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+        display: none;
+    }
+
+    /* Next & previous buttons */
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Caption text */
+    .text {
+        color: #000;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        background-color: #fff
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .ssActive,
+    .dot:hover {
+        background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 2s;
+        animation-name: fade;
+        animation-duration: 2s;
+    }
+
+    @-webkit-keyframes fade {
+        from {
+            opacity: .1
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    @keyframes fade {
+        from {
+            opacity: .1
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+</style>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 20</div>
+        <img src="https://cdn.discordapp.com/attachments/854324916282195979/898062674666078218/WhatsApp_Image_2021-09-22_at_18.47.50.jpeg">
+        <div class="text">by Saadhana</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 20</div>
+        <img src="https://cdn.discordapp.com/attachments/854324916282195979/898062674905141258/WhatsApp_Image_2021-09-22_at_18.47.50_2.jpeg">
+        <div class="text">by Saadhana</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 20</div>
+        <img src="https://cdn.discordapp.com/attachments/854324916282195979/898062675056156702/WhatsApp_Image_2021-09-22_at_18.47.49.jpeg">
+        <div class="text">by Saadhana</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 20</div>
+        <img src="https://cdn.discordapp.com/attachments/854324916282195979/898062675223904356/WhatsApp_Image_2021-09-22_at_18.47.50_1.jpeg">
+        <div class="text">by Saadhana</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">5 / 20</div>
+        <img src="https://cdn.discordapp.com/attachments/854324916282195979/898062675450404864/WhatsApp_Image_2021-09-22_at_18.47.49_1.jpeg">
+        <div class="text">by Saadhana</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">6 / 20</div>
+        <img src="https://cdn.discordapp.com/attachments/854324916282195979/898062675689484289/WhatsApp_Image_2021-09-22_at_18.47.51_1.jpeg">
+        <div class="text">by Saadhana</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">7 / 20</div>
+        <img src="https://cdn.discordapp.com/attachments/854324916282195979/898062675915997184/WhatsApp_Image_2021-09-22_at_18.47.51.jpeg">
+        <div class="text">by Saadhana</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">8 / 20</div>
+        <img src="https://cdn.discordapp.com/attachments/854324916282195979/898063141190111302/20210827_180922.jpg">
+        <div class="text">by Sandhyaa</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">9 / 20</div>
+        <img src="https://cdn.discordapp.com/attachments/854324916282195979/898063141429190676/20210724_152226.jpg">
+        <div class="text">by Sandhyaa</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">10 / 20</div>
+        <img src="https://cdn.discordapp.com/attachments/854324916282195979/898063141777338388/20210701_133609.jpg">
+        <div class="text">by Sandhyaa</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">11 / 20</div>
+        <img src="https://cdn.discordapp.com/attachments/854324916282195979/898063142205149184/20210701_133544.jpg">
+        <div class="text">by Sandhyaa</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">12 / 20</div>
+        <img src="https://cdn.discordapp.com/attachments/854324916282195979/898063142595231774/20210219_091828.jpg">
+        <div class="text">by Sandhyaa</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">13 / 20</div>
+        <img src="https://cdn.discordapp.com/attachments/854324916282195979/898063142930755605/IMG_20200424_161634.jpg">
+        <div class="text">by Sandhyaa</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">14 / 20</div>
+        <img src="https://cdn.discordapp.com/attachments/854324916282195979/898070641482289192/1634187119147.jpg">
+        <div class="text">by Arshitha</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">15 / 20</div>
+        <img src="https://media.discordapp.net/attachments/854324916282195979/898128199416967188/241218110_569800987546141_1973269939077934125_n-2-1.png">
+        <div class="text">by Shiva</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">16 / 20</div>
+        <img src="https://media.discordapp.net/attachments/859329182793596929/893096246355578911/IMG20210930163413.jpg">
+        <div class="text">by Anirudh</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">17 / 20</div>
+        <img src="https://media.discordapp.net/attachments/859329182793596929/893096246863077476/IMG20210930163339.jpg">
+        <div class="text">by Anirudh</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">18 / 20</div>
+        <img src="https://media.discordapp.net/attachments/859329182793596929/893096247311859732/IMG20210930163319.jpg">
+        <div class="text">by Anirudh</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">19 / 20</div>
+        <img src="https://media.discordapp.net/attachments/899231324391493653/899231681968500807/image3.jpg">
+        <div class="text">by Anirudh</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">20 / 20</div>
+        <img src="https://media.discordapp.net/attachments/899231324391493653/899231682324996126/image4.jpg">
+        <div class="text">by Anirudh</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <span class="dot" onclick="currentSlide(9)"></span>
+    <span class="dot" onclick="currentSlide(10)"></span>
+    <span class="dot" onclick="currentSlide(11)"></span>
+    <span class="dot" onclick="currentSlide(12)"></span>
+    <span class="dot" onclick="currentSlide(13)"></span>
+    <span class="dot" onclick="currentSlide(14)"></span>
+    <span class="dot" onclick="currentSlide(15)"></span>
+    <span class="dot" onclick="currentSlide(16)"></span>
+    <span class="dot" onclick="currentSlide(17)"></span>
+    <span class="dot" onclick="currentSlide(18)"></span>
+    <span class="dot" onclick="currentSlide(19)"></span>
+    <span class="dot" onclick="currentSlide(20)"></span>
+</div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" ssActive", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " ssActive";
+        }
+    </script>

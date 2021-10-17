@@ -52,6 +52,14 @@
                         <li><a href="{{ item.link }}">{{item.name}}</a></li>
                     {% endif %}
                 {% endfor %}
+            {% elsif page.dir == "/edition6/" %}
+                {% for item in site.data.navigation_main.edition6 %}
+                    {% if page.url == item.link %}
+                        <li class="active"><a href="{{ item.link }}">{{ item.name }}</a></li>
+                    {% else %}
+                        <li><a href="{{ item.link }}">{{item.name}}</a></li>
+                    {% endif %}
+                {% endfor %}
             {% endif %}
         {% endif %}
     </ul>

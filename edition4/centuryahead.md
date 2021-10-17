@@ -1,8 +1,11 @@
 ---
 layout: article
-title: "A Century Ahead - Chapter 2"
+title: Chapter 2 - A Century Ahead!
 author: Arshitha
 ---
+
+This article is continued from previous chapters, please read the previous chapters to understand better.
+[Chapter 1](/edition3/centuryahead)
 
 <h2 style="text-align: center;">The Unexpected Meeting</h2>
 

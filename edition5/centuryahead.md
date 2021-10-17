@@ -1,8 +1,12 @@
 ---
 layout: article
-title: A Century Ahead - Chapter 3
+title: Chapter 3 - A Century Ahead!
 author: Arshitha
 ---
+
+This article is continued from previous chapters, please read the previous chapters to understand better.
+[Chapter 1](/edition3/centuryahead)<br>
+[Chapter 2](/edition4/centuryahead)
 
 <h2 style="text-align: center;">Bizzare Foundations</h2>
 
