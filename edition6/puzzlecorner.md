@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Puzzle Corner
+title: Puzzle Mania
 author: Arshitha
 ---
 
