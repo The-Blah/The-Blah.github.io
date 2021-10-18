@@ -14,6 +14,8 @@ description: The changelog for the website.
 
 • Fixed Grammatical errors
 
+• Fixed wrong poems author in edition 6
+
 ## v2.0.4
 #### by Rahul, 18 October 2021
 • Released Edition 6
