@@ -29,7 +29,7 @@ The sound kept repeating and it felt as though it was regenerating every time.
 
 “I did have a brown apple this morning. Why? Was it poisoned or something?”, I asked, shivering.
 
-“Aaaa… those are the types of fruits you can eat normally. Those things are special antibiotic medications which are made only every two thousand years. It is extracted carefully from the roots of the willow tree. The liquid excreted by the tree is very transparent when we look at it, but when a  human being touches it the liquid transforms itself into a brownish black colour. This  also can be  extracted only on a particular day of the year. If that day is missed, even uprooting the tree and extracting from it won’t work.”, explained Quito.
+“Aaaa… those are not the types of fruits you can eat normally. Those things are special antibiotic medications which are made only every two thousand years. It is extracted carefully from the roots of the willow tree. The liquid excreted by the tree is very transparent when we look at it, but when a  human being touches it the liquid transforms itself into a brownish black colour. This  also can be  extracted only on a particular day of the year. If that day is missed, even uprooting the tree and extracting from it won’t work.”, explained Quito.
 
 “Like what exactly happens on that day? Do the roots of the Willow tree come out themselves?”, I asked curiously.
 
