@@ -1,7 +1,7 @@
 ---
 layout: article
 title: The Dark Side Of K-Pop
-authors: Aayush
+author: Aayush
 ---
 
 Behind all of the perfection, beauty and cheery faces, our beloved K-pop stars live a miserable life that they'll never tell you about.
