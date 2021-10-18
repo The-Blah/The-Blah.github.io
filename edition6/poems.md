@@ -1,7 +1,7 @@
 ---
 layout: poem
 title: Poems
-author: Arshitha and Arnav
+author: Arnav
 ---
 
 ## The Rain Outside
