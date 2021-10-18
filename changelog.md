@@ -8,6 +8,16 @@ description: The changelog for the website.
     ═══════<br>Changelog<br>═══════
 </h1>
 
+## v2.0.5
+#### by Rahul, 18 October 2021
+• Made it so that the-blah.github.io/editionX can be used to redirect to the first article
+
+• Fixed Grammatical errors
+
+## v2.0.4
+#### by Rahul, 18 October 2021
+• Released Edition 6
+
 ## v2.0.3
 #### by Aravindaksha, 22 September 2021
 • Added dark mode toggle.
