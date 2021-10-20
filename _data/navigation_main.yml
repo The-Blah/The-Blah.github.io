@@ -7,6 +7,7 @@ main:
     link: /editions.html
   - name: Feedback
     link: /feedback.html
+
 edition1:
   - name: The Boy Without A Face
     link: /edition1/boywithoutaface.html
@@ -22,6 +23,7 @@ edition1:
     link: /edition1/rivers.html
   - name: You Didn't Know That...
     link: /edition1/ydkt.html
+
 edition2:
   - name: Beginning or End?
     link: /edition2/beginningorend.html
@@ -45,6 +47,7 @@ edition2:
     link: /edition2/television.html
   - name: You Didn't Know That...
     link: /edition2/ydkt.html
+
 edition3:
   - name: Artificial Intelligence
     link: /edition3/ai.html
@@ -72,6 +75,7 @@ edition3:
     link: /edition3/photography.html
   - name: Blah's Got Talent
     link: /edition3/bgt.html
+
 edition4:
   - name: A Century Ahead
     link: /edition4/centuryahead.html
@@ -109,6 +113,7 @@ edition4:
     link: /edition4/whentheworldgivesyou.html
   - name: You Didn't Know That
     link: /edition4/ydkt.html
+
 edition5:
   - name: A Century Ahead
     link: /edition5/centuryahead.html
@@ -134,9 +139,10 @@ edition5:
     link: /edition5/talent.html
   - name: Photography
     link: /edition5/photography.html
+
 edition6:
   - name: Lost and Found
-    link: /edition6/chapter2lostandfound.html
+    link: /edition6/lostandfound.html
   - name: Physics Behind Formula 1
     link: /edition6/formula1.html
   - name: Lessons learnt from COVID
@@ -144,7 +150,7 @@ edition6:
   - name: Steve
     link: /edition6/steve.html
   - name: All for a Sundial
-    link: /edition6/chapter4allforasundial.html
+    link: /edition6/centuryahead.html
   - name: Will India become a superpower?
     link: /edition6/willindiabecomeasuperpower.html
   - name: What are IP Addresses?
