@@ -6,7 +6,6 @@ var styleSheet = document.querySelector('.theme-link');
 
 // Get the user's theme preference from local storage, if it's available
 const currentTheme = localStorage.getItem("theme");
-console.log(currentTheme);
 // If the user's preference in localStorage is dark...
 if (currentTheme == "dark") {
   // ...let's toggle the .dark-theme class on the body
