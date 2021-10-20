@@ -119,15 +119,14 @@ ul.navigation li {
 
 
 .icon-wrapper {
-    display: block;
     overflow: hidden;
     display: block; 
     text-align: center;
+    transition: 0.6s ease;
 }
 
 .icon-wrapper:hover {
-    transition: 1s;
-    transform: rotateZ(180deg);
+    transform: rotate(180deg)
 }
 
 /* End Define Google Icons */
