@@ -4,7 +4,7 @@ title: Chapter 4 - A Century Ahead!
 author: Arshitha
 ---
 
-You can access the previous chapters below to catch up!<br>
+Haven't read the previous chapers? Use the links below to access the previous chapters!<br>
 [Chapter 1](/edition3/centuryahead)<br>
 [Chapter 2](/edition4/centuryahead)<br>
 [Chapter 3](/edition5/centuryahead)

@@ -4,7 +4,7 @@ title: MIT License
 description: MIT License Terms
 ---
 
-<h1 style="font-size: 43px; text-align: center; margin-top: 17%;">
+<h1 class="pageHeader">
     ═══════<br>MIT License Terms<br>═══════
 </h1>
 

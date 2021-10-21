@@ -4,7 +4,7 @@ title: Information
 description: The Blah Information
 ---
 
-<h1 style='line-height: 1; font-size: 43px; text-align: center; margin-top: 17%;'>
+<h1 class="pageHeader">
 ═══════<br>Information<br>═══════
 </h1>
 

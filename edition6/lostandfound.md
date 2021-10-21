@@ -6,7 +6,7 @@ author: Gitanjali
 
 <h2 style="text-align: center;">Lost and Found</h2>
 
-Access the previous chapter to catch up!<br>
+Haven't read the previous chapers? Use the links below to access the previous chapter!<br>
 [First Chapter](/edition5/mysterioushappenings)
 
 It had been 10 years since Samir’s parents had disappeared. “Nana, now that I’ve turned 18 years old, am I allowed to travel by myself?”, he asked... determined to hear the answer he needed. “Well, I suppose so.”, said Nana in a rather dull tone. “Alright in that case, I would like to take my first trip abroad by myself!”, he said with an enthusiastic voice. “Samir, it’s too dangerous travelling overseas alone. you can’t go by yourself.” She exclaimed. “Nana, I’m all grown up now. I’ve been waiting for this for the past 10 years, please. I’ve done all the research and I’ve read the precautions to take. And see- I also have some equipment that could help me if I get stuck somewhere or my plane crashes- not that it is going to- please Nana...?”, he sighed.

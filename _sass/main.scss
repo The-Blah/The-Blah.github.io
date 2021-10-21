@@ -164,6 +164,14 @@ ul.navigation li {
     color: #533549;
 }
 
+/* Use a class to style the headers on the main pages */
+.pageHeader {
+    line-height: 1;
+    font-size: 43px; 
+    text-align: center; 
+    margin-top: 17%;
+}
+
 /* Defining keyframes for Mozilla for redundancy */
 @-moz-keyframes marquee {
     0% {
