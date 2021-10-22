@@ -8,6 +8,18 @@ description: The changelog for the website.
     ═══════<br>Changelog<br>═══════
 </h1>
 
+## v2.0.7
+#### by Rahul, 18 October 2021
+• Fixed redirect error
+
+• Created new stylesheet for all the main page headings
+
+• Changed redirects.
+
+## v2.0.6
+#### by Aravindaksha, 18 October 2021
+• Edited navigation look in mobiles and small devices.
+
 ## v2.0.5
 #### by Rahul, 18 October 2021
 • Made it so that the-blah.github.io/editionX can be used to redirect to the first article
