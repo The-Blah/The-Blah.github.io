@@ -357,19 +357,32 @@ ul.navigation li {
 /* Start define 769px+ devices support */
 
 @media only screen and (min-width: 769px) {
-    #loader {
+
+    /* Define position and animation for spinner */
+
+    #spinner {
         position: absolute;
         left: 50%;
         top: 50%;
         z-index: 1;
-        width: 120px;
-        height: 120px;
-        margin: -76px 0 0 -76px;
-        border: 5px solid #f3f3f3;
+        width: 80px;
+        height: 80px;
+        margin: -1px 0 0 -58px;
+        border: 3px solid #f3f3f3;
         border-radius: 50%;
-        border-top: 10px solid #dbb98f;
+        border-top: 6px solid #dbb98f;
         -webkit-animation: spin 2s linear infinite;
-        animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;       
+    }
+
+    /* Define position for the logo above the spinner. */
+
+    #loader img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        z-index: 1;
+        margin: -151px 0 0 -76px;
     }
     @-webkit-keyframes spin {
         0% {
