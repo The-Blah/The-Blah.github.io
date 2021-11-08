@@ -27,7 +27,7 @@ A. I wasn't really expecting much out of my first competition to be frank, but i
 A. Cubing was something that I indulged in out of personal fascination and passion. It was never something that I was obligated to do, and I was comforted by the fact that I could take a break if I was saturated and not face any concequences.
 <br><br>
 
-**Q.Do you percieve cubing as more of a hobby or a career?**<br>
+**Q. Do you percieve cubing as more of a hobby or a career?**<br>
 
 A. Cubing undoubtedly requires immense skill and dedication, but unfortunately, cubing doesn't support a full time career as of now. This is mostly due to its lack of popularity and recognition in comparison to other fields and games which leads to scarcity in sponsors and investors that percieve cubing as a profitable investment.
 <br><br>
