@@ -8,6 +8,12 @@ description: The changelog for the website.
     ═══════<br>Changelog<br>═══════
 </h1>
 
+# Explaining Version Numbers
+
+The Blah follows three stages of releases. Major Release, Release, Minor Release. X.Y.Z is the version format where X represents the Major Release Version, Y represents the Release version and Z represents the Minor Release Version.
+
+# Changelog
+
 ## v2.1.4
 #### by Rahul, 08 November 2021
 • Changed some changelog numbers to follow previous practices.
