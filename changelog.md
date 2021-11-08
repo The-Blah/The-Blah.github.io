@@ -17,6 +17,7 @@ The Blah follows three stages of releases. Major Release, Release, Minor Release
 ## v2.1.4
 #### by Rahul, 08 November 2021
 • Changed some changelog numbers to follow previous practices.
+
 • Added a small introduction in the changelog page!
 
 ## v2.1.3
