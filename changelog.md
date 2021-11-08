@@ -8,7 +8,7 @@ description: The changelog for the website.
     ═══════<br>Changelog<br>═══════
 </h1>
 
-## v2.0.7
+## v2.1.3
 #### by Rahul, 18 October 2021
 • Fixed redirect error
 
@@ -16,11 +16,11 @@ description: The changelog for the website.
 
 • Changed redirects.
 
-## v2.0.6
+## v2.1.2
 #### by Aravindaksha, 18 October 2021
 • Edited navigation look in mobiles and small devices.
 
-## v2.0.5
+## v2.1.1
 #### by Rahul, 18 October 2021
 • Made it so that the-blah.github.io/editionX can be used to redirect to the first article
 
@@ -28,7 +28,7 @@ description: The changelog for the website.
 
 • Fixed wrong poems author in edition 6
 
-## v2.0.4
+## v2.1
 #### by Rahul, 18 October 2021
 • Released Edition 6
 
