@@ -20,6 +20,8 @@ The Blah follows three stages of releases. Major Release, Release, Minor Release
 
 • Added a small introduction in the changelog page!
 
+• Fixed marquee link on main page
+
 ## v2.1.3
 #### by Rahul, 18 October 2021
 • Fixed redirect error
