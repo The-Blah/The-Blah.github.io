@@ -4,11 +4,11 @@ title: Interview Of Aayush
 author: Rahul Anand
 ---
 
-**A short Introduction**
+### A short Introduction
 
 *Aayush is an integral part of the Blah team and plays a key role guaranteeing the ensuring that things are done well. He laid the first foundations of the Blah and displays competent leadership qualities. He is an aspiring writer and spends his free time solving Rubik's cubes and has deep passion for the same. He found an interest for Rubik's cubes in May 2018 and promptly learned to solve the 3x3 and 2x2 in less than a month, mainly due to his vast interest for the hobby. In due time, he participated in his first cubing competition (SRM Cube Open 2018). He returned with renewed vigour in the SSN Cube Open 2018 and broke his previous times by 50% solving the 3x3 in 17 seconds and the 2x2 in 6 seconds. His current average in the 3x3 cube is 8 seconds and 2 seconds in 2x2. As of now, he's secured 2 silver medals and 1 bronze medal from official competitions which is none less than a commendable feat and he aspires to break the national record of India soon.*
 
-**The Interview**
+### The Interview
 
 **Q. What was the initial spark that fuelled your motivation to invest your time into learning a completely new hobby and what drew you towards it over others?**<br>
 
