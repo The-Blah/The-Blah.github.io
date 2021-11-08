@@ -8,6 +8,11 @@ description: The changelog for the website.
     ═══════<br>Changelog<br>═══════
 </h1>
 
+## v2.1.4
+#### by Rahul, 08 November 2021
+• Changed some changelog numbers to follow previous practices.
+• Added a small introduction in the changelog page!
+
 ## v2.1.3
 #### by Rahul, 18 October 2021
 • Fixed redirect error
