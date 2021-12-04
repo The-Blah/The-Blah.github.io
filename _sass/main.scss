@@ -1,9 +1,9 @@
 /* Importing the Raleway font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 
 /* Setting the font for the style-sheet */
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 
     /* Sets how element sizes are calculated; In border-box, width and height properties include content, padding and border */
     box-sizing: border-box;
@@ -67,7 +67,7 @@ ul.navigation li {
 .home-paragraph {
     font-size: 20px;
     text-align: center;
-    margin-bottom: 10%
+    margin-bottom: 10%;
 }
 
 /* Styling for footer headers for each division */
@@ -86,13 +86,13 @@ ul.navigation li {
 
 .icon-wrapper {
     overflow: hidden;
-    display: block; 
+    display: block;
     text-align: center;
     transition: 0.6s ease;
 }
 
 .icon-wrapper:hover {
-    transform: rotate(180deg)
+    transform: rotate(180deg);
 }
 
 .nav-icon {
@@ -110,7 +110,7 @@ ul.navigation li {
 /* Start define Google Icons */
 
 .material-icons {
-    font-family: 'Material Icons';
+    font-family: "Material Icons";
     font-weight: normal;
     font-style: normal;
     font-size: 24px;
@@ -129,11 +129,8 @@ ul.navigation li {
     /* Support for Firefox. */
     -moz-osx-font-smoothing: grayscale;
     /* Support for IE. */
-    font-feature-settings: 'liga';
+    font-feature-settings: "liga";
 }
-
-
-
 
 /* End Define Google Icons */
 
@@ -167,9 +164,37 @@ ul.navigation li {
 /* Use a class to style the headers on the main pages */
 .pageHeader {
     line-height: 1;
-    font-size: 43px; 
-    text-align: center; 
+    font-size: 43px;
+    text-align: center;
     margin-top: 7%;
+}
+
+/* Styles the media link cards */
+.media-link-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+}
+
+.media-link-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.media-link-card-container {
+    padding: 2px 16px;
+}
+
+.media-link-card img {
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    width: 100%;
 }
 
 /* Defining keyframes for Mozilla for redundancy */
@@ -229,12 +254,12 @@ ul.navigation li {
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
-    transition-duration: .5s;
+    transition-duration: 0.5s;
 }
 
 /* Changes BG color if hovered */
 #scroll-top-btn:hover {
-    background-color: rgba(119, 119, 119, .5);
+    background-color: rgba(119, 119, 119, 0.5);
 }
 
 /* Changes BG color if clicked */
@@ -305,9 +330,7 @@ ul.navigation li {
     padding: 15px;
 }
 
-
 /* End define CSS Grid */
-
 
 /* Start define mobile support */
 
@@ -350,6 +373,10 @@ ul.navigation li {
     #riddletext {
         display: block;
     }
+
+    .cards {
+        flex-direction: column;
+    }
 }
 
 /* End define mobile support */
@@ -357,7 +384,6 @@ ul.navigation li {
 /* Start define 769px+ devices support */
 
 @media only screen and (min-width: 769px) {
-
     /* Define position and animation for spinner */
 
     #loader {
@@ -372,9 +398,9 @@ ul.navigation li {
         border-radius: 50%;
         border-top: 10px solid #dbb98f;
         -webkit-animation: spin 2s linear infinite;
-        animation: spin 2s linear infinite;       
+        animation: spin 2s linear infinite;
     }
-    
+
     @-webkit-keyframes spin {
         0% {
             -webkit-transform: rotate(0deg);
@@ -397,26 +423,26 @@ ul.navigation li {
         -webkit-animation-name: animatebottom;
         -webkit-animation-duration: 1s;
         animation-name: animatebottom;
-        animation-duration: 1s
+        animation-duration: 1s;
     }
     @-webkit-keyframes animatebottom {
         from {
             bottom: -100px;
-            opacity: 0
+            opacity: 0;
         }
         to {
             bottom: 0px;
-            opacity: 1
+            opacity: 1;
         }
     }
     @keyframes animatebottom {
         from {
             bottom: -100px;
-            opacity: 0
+            opacity: 0;
         }
         to {
             bottom: 0;
-            opacity: 1
+            opacity: 1;
         }
     }
     #myDiv {

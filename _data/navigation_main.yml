@@ -5,8 +5,8 @@ main:
     link: /about.html
   - name: Editions
     link: /editions.html
-  - name: Feedback
-    link: /feedback.html
+  - name: Talk to Us!
+    link: /talktous.html
 
 edition1:
   - name: The Boy Without A Face

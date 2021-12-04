@@ -1,6 +1,6 @@
 <footer>
     <div>
-        <div class="col-4 footer-content-division">
+        <div class="col-6 footer-content-division">
             <p class="footer-header">Pages</p>
             <ul class="navigation">
                 {% for item in site.data.footer.main_pages %}
@@ -8,15 +8,7 @@
                 {% endfor %}
             </ul>
         </div>
-        <div class="col-4 footer-content-division">
-            <p class="footer-header">Our Latest Edition</p>
-            <ul class="navigation">
-                {% for item in site.data.navigation_main.edition6 %}
-                <li><a href="{{ item.link }}">{{ item.name }}</a></li>
-                {% endfor %}
-            </ul>
-        </div>
-        <div class="col-4 footer-content-division">
+        <div class="col-6 footer-content-division">
             <p class="footer-header">Contact Us</p>
             <ul class="navigation">
                 {% for item in site.data.footer.contact %}
