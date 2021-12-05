@@ -195,9 +195,12 @@ ul.navigation li {
 }
 
 .media-link-card img {
-    border-radius: 5px 5px 0 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    width: 100%;
+    border-radius: 5px 5px 0 0;
+    height: 100px;
 }
 
 /* Defining keyframes for Mozilla for redundancy */
@@ -379,6 +382,7 @@ ul.navigation li {
 
     .cards {
         flex-direction: column;
+        grid-gap: 20px;
     }
 }
 
