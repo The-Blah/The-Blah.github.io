@@ -5,7 +5,7 @@ main:
     link: /about.html
   - name: Editions
     link: /editions.html
-  - name: Talk to Us!
+  - name: Talk to us
     link: /talktous.html
 
 edition1:
