@@ -52,3 +52,21 @@ ul.navigation li.active a {
 .articleHeader {
     color: #f6b042;
 }
+
+.feedbackContainer {
+    background-color: #272727;
+}
+
+button[type="submit"] {
+    background-color: #121212;
+    color: #dee4e7;
+}
+
+button[type="submit"]:hover {
+    background-color: black;
+}
+
+input, textarea {
+    background-color: black;
+    color: white;
+}
