@@ -1,9 +1,6 @@
 <footer>
     <div>
-        <div class="col-4 footer-content-division">
-            <img src="../assets/media/The-Blah-Logo.png" alt="Blah Logo Footer" style="width: 50%; margin-top: 25%; margin-bottom: 25%; margin-right: 25%; margin-left: 25%">
-        </div>
-        <div class="col-4 footer-content-division">
+        <div class="col-6 footer-content-division">
             <p class="footer-header">Pages</p>
             <ul class="navigation">
                 {% for item in site.data.footer.main_pages %}
@@ -11,10 +8,10 @@
                 {% endfor %}
             </ul>
         </div>
-        <div class="col-4 footer-content-division">
-            <p class="footer-header">Contact Us</p>
+        <div class="col-6 footer-content-division">
+            <p class="footer-header">Our Social Media Hubs</p>
             <ul class="navigation">
-                {% for item in site.data.footer.contact %}
+                {% for item in site.data.footer.social_media_hubs %}
                 <li><a href="{{ item.link }}">{{ item.name }}</a></li>
                 {% endfor %}
             </ul>

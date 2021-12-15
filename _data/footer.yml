@@ -10,8 +10,12 @@ main_pages:
   - name: Changelog
     link: /changelog.html
     
-contact:
+social_media_hubs:
+  - name: Discord
+    link: https://discord.com/
+  - name: Instagram
+    link: https://instagram.com/
   - name: Email
-    link: mailto:the8thgradeblah@gmail.com
-  - name: Feedback
+    link: mailto:theblah2021@gmail.com
+  - name: Site Feedback
     link: /feedback.html
