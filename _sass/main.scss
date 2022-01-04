@@ -167,9 +167,71 @@ ul.navigation li {
 /* Use a class to style the headers on the main pages */
 .pageHeader {
     line-height: 1;
-    font-size: 43px;
+    font-size: 50px;
     text-align: center;
     margin-top: 7%;
+    font-family: "Hey Gotcha Regular";
+    letter-spacing: 1px;
+}
+
+/* Style the flexbox used to hold all the "About" cards in place. */
+.about-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 4px;
+    column-gap: 4px;
+}
+
+/* Style the "About" cards */
+.about-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+    flex: auto;
+    height: 510px;
+    border: 1px transparent;
+    border-radius: 8px;
+}
+
+/* Style the nickname present in the "About" cards */
+.nickname {
+    color: grey;
+    font-size: 18px;
+    max-width: 250px;
+}
+
+/* Style the main description of the person present in the "About" cards */
+.about {
+    word-break: break-word;
+    text-align: center;
+    vertical-align: center;
+}
+
+/* (Non-existent) Style the button present in the "About" cards */
+.about-card button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.about-card button:hover {
+    opacity: 0.7;
+}
+
+/* Style the avatar of the people in the "About" cards */
+.about-card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 /* Styles the media link cards */
@@ -205,6 +267,7 @@ ul.navigation li {
     width: auto;
 }
 
+/* Style the custom feedback form */
 #feedbackSection {
     display: flex;
     align-items: center;
@@ -278,7 +341,7 @@ button[type="submit"]:hover {
     background-color: rgb(250, 129, 92);
     color: white;
     animation: status 4s ease forwards;
-}
+} 
 
 @keyframes status {
     0% {
@@ -475,6 +538,10 @@ button[type="submit"]:hover {
     .cards {
         flex-direction: column;
         grid-gap: 25px;
+    }
+
+    .pageHeader {
+        font-size: 43px;
     }
 }
 
