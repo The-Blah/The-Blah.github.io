@@ -54,6 +54,18 @@ ul.navigation li {
     margin-left: -1px;
 }
 
+.editions-list {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+
 /* Centers and resizes the logo which is in every page */
 .logo img {
     display: block;
@@ -72,7 +84,7 @@ ul.navigation li {
 
 /* Styling for footer headers for each division */
 .footer-header {
-    color: #f6b042;
+    color: #030593;
     text-align: center;
     font-size: 30px;
 }
@@ -81,7 +93,7 @@ ul.navigation li {
 .footer {
     border-radius: 12px 12px 12px 12px;
     margin: 7%, 1%, 1%, 1%;
-    border: 1px solid #dbb98f;
+    border: 1px solid #d1cbcb;
 }
 
 .icon-wrapper {
@@ -101,7 +113,7 @@ ul.navigation li {
 
 /* Styling for large logo in main page */
 #main-logo {
-    border-radius: 10%;
+    border-radius: 50%;
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -141,7 +153,7 @@ ul.navigation li {
     height: 40px;
     overflow: hidden;
     position: relative;
-    background-color: #dbb98f;
+    background-color: #D1CBCB;
     border-color: transparent;
     border-radius: 5px;
     text-align: center;
@@ -174,23 +186,38 @@ ul.navigation li {
     letter-spacing: 1px;
 }
 
-/* Style the flexbox used to hold all the "About" cards in place. */
-.about-cards {
+div.cards-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    row-gap: 4px;
-    column-gap: 4px;
+}
+
+/* Style the flexbox used to hold all the "About" cards in place. */
+.about-cards {
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // flex-wrap: wrap;
+    // row-gap: 4px;
+    // column-gap: 4px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+    .about-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
 }
 
 /* Style the "About" cards */
 .about-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 250px;
-    margin: auto;
+    // max-width: 250px;
     text-align: center;
-    flex: auto;
+    // flex: auto;
     height: 510px;
     border: 1px transparent;
     border-radius: 8px;
@@ -200,7 +227,7 @@ ul.navigation li {
 .nickname {
     color: grey;
     font-size: 18px;
-    max-width: 250px;
+    // max-width: 250px;
 }
 
 /* Style the main description of the person present in the "About" cards */
@@ -208,6 +235,7 @@ ul.navigation li {
     word-break: break-word;
     text-align: center;
     vertical-align: center;
+    padding: 0px 3px 0px 3px;
 }
 
 /* (Non-existent) Style the button present in the "About" cards */
@@ -232,6 +260,7 @@ ul.navigation li {
 .about-card img {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+    width: 250px;
 }
 
 /* Styles the media link cards */
@@ -247,6 +276,7 @@ ul.navigation li {
 .cards {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .media-link-card:hover {
@@ -491,6 +521,11 @@ button[type="submit"]:hover {
     padding: 15px;
 }
 
+.articleHeader {
+    font-family: "Hey Gotcha Regular";
+    letter-spacing: 1px;
+}
+
 /* End define CSS Grid */
 
 /* Start define mobile support */
@@ -543,6 +578,11 @@ button[type="submit"]:hover {
     .pageHeader {
         font-size: 43px;
     }
+
+    .about-cards {
+        grid-template-columns: 1fr;
+    }
+    
 }
 
 /* End define mobile support */

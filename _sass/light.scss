@@ -24,31 +24,39 @@ ul.navigation li.active a {
     padding: 15px;
 }
 
-.editions-list a {
+.column a {
     text-decoration: none;
     color: black;
     padding: 10px;
     border: 1px solid transparent;
     border-radius: 5px;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    transition: 0.6s ease-in-out;
 }
-.editions-list a:hover {
+.column a:hover {
     background-color: #353434;
     padding: 15px 15px;
     color: white;
-    transition: 0.6s ease;
     border-radius: 5px;
-    margin-top: 10%;
-    margin-bottom: 10%;
+}
+
+.column {
+    width: 50%;
+    flex: 50%;
+    float: left;
+}
+
+.editions-list::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .pageHeader {
-    color: #b17e2f;
+    color: #030593;
 }
 
 .articleHeader {
-    color: #b17e2f;
+    color: #030593;
 }
 
 .feedbackContainer {
@@ -66,5 +74,9 @@ button[type="submit"]:hover {
 input, textarea {
     background-color: white;
     color: black;
+}
+
+.footer {
+    border: 1px solid #030593;
 }
 
