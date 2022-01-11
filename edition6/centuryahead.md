@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Chapter 4 - A Century Ahead!
+title: Chapter 4 - A Century Ahead
 author: Arshitha
 ---
 

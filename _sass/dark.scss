@@ -3,6 +3,10 @@ body {
     color: #EEE;
 }
 
+.headerColor {
+    color: #D1CBCB;
+}
+
 ul.navigation a {
     list-style-type: none;
     text-decoration: none;
@@ -15,14 +19,14 @@ ul.navigation a {
 ul.navigation a:hover {
     background-color: #bdbaba;
     color: black;
-    padding: 15px 15px;
+    padding: 15px 25px;
     border-radius: 5px;
 }
 
 ul.navigation li.active a {
     background-color: white;
     color: black;
-    padding: 15px;
+    padding: 15px 25px;
 }
 
 .column a {
@@ -77,6 +81,14 @@ button[type="submit"]:hover {
 input, textarea {
     background-color: black;
     color: white;
+}
+
+.about-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.about-card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.35);
 }
 
 .footer-header {

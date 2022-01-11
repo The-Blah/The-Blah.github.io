@@ -1,9 +1,10 @@
 /* Importing the Raleway font from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 /* Setting the font for the style-sheet */
 * {
-    font-family: "Raleway", sans-serif;
+    font-family: "Comfortaa", sans-serif;
 
     /* Sets how element sizes are calculated; In border-box, width and height properties include content, padding and border */
     box-sizing: border-box;
@@ -16,18 +17,23 @@ html {
 
 /* Sets the colors of most links in the website to The Blah colors */
 a {
-    color: #dbb98f;
+    color: #D1CBCB;
 }
 
 /* Selects li elements under the navigation class. This class is for the sidebar and footer. */
 ul.navigation li {
     /* Removes the default bullet list style */
     list-style-type: none;
-    font-size: 14px;
     border-radius: 5px;
     /* Sets the sizes of the elements to be comfortably spaced */
     margin: 25px 0px 25px 0px;
     padding: 10px 10px;
+}
+
+ul.navigation a {
+    font-family: "Hey Gotcha Regular", sans-serif;
+    letter-spacing: 1.75px;
+    font-size: 16px;
 }
 
 /* Selects all elements in the navigation class and aligns them horizontally to the center */
@@ -42,6 +48,11 @@ ul.navigation li {
 .counter {
     display: block;
     text-align: center;
+}
+
+.paragraphs {
+    font-size: 18px;
+    line-height: 140%;
 }
 
 /* Same as above */
@@ -66,6 +77,14 @@ ul.navigation li {
     gap: 1px;
 }
 
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+
 /* Centers and resizes the logo which is in every page */
 .logo img {
     display: block;
@@ -77,9 +96,10 @@ ul.navigation li {
 
 /* Styles the paragraph in home page */
 .home-paragraph {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     margin-bottom: 10%;
+    line-height: 140%;
 }
 
 .slogan {
@@ -95,7 +115,7 @@ ul.navigation li {
     font-size: 30px;
     font-weight: bold;
     font-family: "Hey Gotcha Regular", sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 1.75px;
 }
 
 /* General styling for footer */
@@ -169,7 +189,7 @@ ul.navigation li {
 }
 
 .marquee a {
-    color: #ee0f0f;
+    color: #030593;
     text-decoration: none;
 }
 
@@ -187,12 +207,15 @@ ul.navigation li {
 
 /* Use a class to style the headers on the main pages */
 .pageHeader {
-    line-height: 1;
-    font-size: 50px;
     text-align: center;
     margin-top: 7%;
-    font-family: "Hey Gotcha Regular";
-    letter-spacing: 1px;
+}
+
+.pageHeader span {
+    line-height: 1;
+    font-size: 45px;
+    font-family: "Hey Gotcha Regular", sans-serif;
+    letter-spacing: 1.75px;
 }
 
 div.cards-container {
@@ -220,9 +243,10 @@ div.cards-container {
 .about-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     text-align: center;
-    height: 510px;
+    height: 540px;
     border: 1px transparent;
     border-radius: 8px;
+    position: relative;
 }
 
 /* Style the nickname present in the "About" cards */
@@ -233,10 +257,11 @@ div.cards-container {
 
 /* Style the main description of the person present in the "About" cards */
 .about {
+    position: absolute;
     word-break: break-word;
     text-align: center;
     vertical-align: center;
-    padding: 0px 3px 0px 3px;
+    padding: 0px 5px;
 }
 
 /* (Non-existent) Style the button present in the "About" cards */
@@ -343,7 +368,7 @@ button[type="submit"] {
     padding: 20px;
     font-size: 24px;
     border-radius: 8px;
-    font-family: "Raleway";
+    font-family: "Comfortaa", sans-serif;
     text-align: center;
     cursor: pointer;
     margin-top: 10px;
@@ -522,10 +547,6 @@ button[type="submit"]:hover {
     padding: 15px;
 }
 
-.articleHeader {
-    font-family: "Hey Gotcha Regular";
-    letter-spacing: 1px;
-}
 
 /* End define CSS Grid */
 

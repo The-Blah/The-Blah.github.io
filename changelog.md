@@ -4,9 +4,11 @@ title: Changelog
 description: The changelog for the website.
 ---
 
-<h1 style="font-size: 43px; text-align: center; margin-top: 17%;">
-    ═══════<br>Changelog<br>═══════
-</h1>
+<header>
+    <h1 class="pageHeader">
+        ═══════<br><span>Changelog</span><br>═══════<br>
+    </h1>
+</header>
 
 # Explaining Version Numbers
 
