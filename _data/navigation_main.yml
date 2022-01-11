@@ -3,10 +3,10 @@ main:
     link: /
   - name: About Us
     link: /about.html
-  - name: Editions
-    link: /editions.html
   - name: Talk to us
     link: /talktous.html
+  - name: Editions
+    link: /editions.html
 
 edition1:
   - name: The Boy Without A Face

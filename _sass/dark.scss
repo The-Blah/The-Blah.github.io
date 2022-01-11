@@ -19,6 +19,7 @@ ul.navigation a {
 ul.navigation a:hover {
     background-color: #bdbaba;
     color: black;
+    font-weight: bold;
     padding: 15px 25px;
     border-radius: 5px;
 }
@@ -27,6 +28,7 @@ ul.navigation li.active a {
     background-color: white;
     color: black;
     padding: 15px 25px;
+    font-weight: bold;
 }
 
 .column a {
