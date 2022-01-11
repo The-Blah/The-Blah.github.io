@@ -21,27 +21,81 @@ This argument could last from summer to fall.<br>
 Thinking like this makes everyone’s mind go damp.<br>
 I like to think that there are three words above all.<br>
 Cogito, ergo, sum. I think, therefore, I am.
+<br><br>
 
-## The creek down the hill
-### by Arnav
+<h1 style="font-size: 43px; text-align: center;" class="headerColor">
+    <br>
+    <span style="font-family: 'Hey Gotcha Regular', sans-serif; letter-spacing: 1.75px;"  class="headerColor">
+        Guest Features
+    </span>
+    <br>
+</h1>
 
-Every time I go out for a walk,<br>
-I see the little creek,<br>
-Running down the hill,<br>
-Flowing into the park.
+<p style="text-align: center; font-size: 20px;">
+    <span style="font-family: 'Hey Gotcha Regular', sans-serif; letter-spacing: 1.75px;"  class="headerColor">
+        by Tejasmira
+    </span>
+</p>
+<br><br>
 
-It gushes past the plants,<br>
-Swerves around the pebbles<br>
-And when the giant rock set foot on the hill,<br>
-The creek moved around, being ever so gentle.
+## Diamond Tears
+### By Tejasmira
 
-It seems to be relentless,<br>
-Flowing around every obstacle.<br>
-People think its just water,<br>
-But I think its a spectacle.
+The line between ecstacy and despair,<br>
+When your heart is broken<br>
+Too much to repair.<br>
+Or when your heart speeds up<br>
+And you're filled with cheer,<br>
+One thing common<br>
+Is a tear.
 
-Every time I go out for a walk,<br>
-Every time I see a resting croc,<br>
-I see the little creek,<br>
-Running down the hill,<br>
-Flowing into the park.
+The day you found a four-leaf clover,<br>
+Or the day you failed,<br>
+Making a daring maneuver<br>
+And you're hurt, in fear.<br>
+You touch your cheek<br>
+And feel a tear.
+
+The day you lost the one;<br>
+The one who kept you going,<br>
+The one who made sure<br>
+That life wouldn't be boring.<br>
+You can't smile, you forget how to.<br>
+You want to shed a tear,<br>
+But your eyes are dry.
+
+They say tears can hint one's sorrow,<br>
+But save them for tomorrow.<br>
+For your tears are like diamonds;<br>
+You have to protect and hide them.<br><br>
+
+## Smile
+### by Tejasmira
+
+A beautiful smile,<br>
+From ear to ear<br>
+Takes away<br>
+All of ones fears.<br>
+The impression of happiness<br>
+Gives one reassurance.
+
+A forced smile,<br>
+From ear to ear<br>
+Good at hiding<br>
+One's own fear.<br>
+The broken heart,<br>
+With stitches of pretence.<br>
+To some people, it never makes sense.
+
+An evil smile<br>
+From ear to ear<br>
+Which instantly unlocks<br>
+All of one's fears.<br>
+Though the heart seems to be steel<br>
+Underneath, is a wound too deep to heal.
+
+From this as you may see,<br>
+A smile can suit any emotion you can be.<br>
+So cherish it all, show some gratitude.<br>
+With a never-fading smile,<br>
+And a cheerful attitude.<br>
