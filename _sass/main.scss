@@ -28,6 +28,14 @@ ul.navigation li {
     /* Sets the sizes of the elements to be comfortably spaced */
     margin: 25px 0px 25px 0px;
     padding: 10px 10px;
+    transform: translateX(-350px);
+    animation: leftToRight 500ms 500ms forwards;
+}
+
+@keyframes leftToRight {
+    100% {
+        transform: translateX(0);
+    }
 }
 
 ul.navigation a {
