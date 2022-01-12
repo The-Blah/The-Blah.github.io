@@ -173,7 +173,7 @@ edition6:
 edition7:
   - name: Indian Cricket in 1983
     link: /edition7/83movie.html
-  - name: Twice the Mysteries
+  - name: A Century Ahead
     link: /edition7/centuryahead.html
   - name: The Dystopian Paradox
     link: /edition7/dystopianparadox.html
@@ -185,6 +185,8 @@ edition7:
     link: /edition7/emotions.html
   - name: Poems
     link: /edition7/poems.html
+  - name: Interview
+    link: /edition7/interview.html
   - name: Photography
     link: /edition7/photography.html
   - name: Featured Art
