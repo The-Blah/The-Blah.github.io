@@ -23,6 +23,29 @@ I like to think that there are three words above all.<br>
 Cogito, ergo, sum. I think, therefore, I am.
 <br><br>
 
+## The Festivals of India
+### by Arnav
+
+India is filled with many, many festivals.<br>
+They have sweets, snacks and lots and lots of fun!<br> 
+For every festival here, there is something to enjoy,<br> 
+And the amount of angry faces is none! 
+
+Diwali is known as the festival of light<br>
+The day Krishna slayed Kamsa, with might!<br>
+Yummy Gulab Jamuns are adored on that day<br>
+And to burst many crackers that day, we pray! 
+
+On the day of Eid, we fill our stomachs to our please.<br> 
+Just take a look at this big, grand feast!<br>
+Sindhi Biryani, Tangine and many dishes alike.<br> 
+There is no proper exercise, you’ll need to take a hike! 
+
+When we wake up on Christmas day,<br>
+We run to the tree, nobody in our way!<br> 
+We open our presents and devour plum cake, nearly,<br> 
+No wonder we wake up our parents so early!<br><br>
+
 <h1 style="font-size: 43px; text-align: center;" class="headerColor">
     <br>
     <span style="font-family: 'Hey Gotcha Regular', sans-serif; letter-spacing: 1.75px;"  class="headerColor">
