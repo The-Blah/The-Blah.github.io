@@ -4,13 +4,13 @@ title: Chapter 5 - A Century Ahead
 author: Arshitha
 ---
 
-Haven't read the previous chapers? Use the links below to access the previous chapters!<br>
+Haven't read the previous chapers? Use the links below to catch up with the story!<br>
 [Chapter 1](/edition3/centuryahead)<br>
 [Chapter 2](/edition4/centuryahead)<br>
 [Chapter 3](/edition5/centuryahead)<br>
 [Chapter 4](/edition6/centuryahead)
 
-<h2 style="text-align: center; font-family: 'Hey Gotcha Regular', sans-serif; letter-spacing: 1.5px;">Twice the Mysteries</h2>
+<h2 style="text-align: center; font-family: 'Hey Gotcha Regular', sans-serif; letter-spacing: 1.5px;">Chapter 5: Twice the Mysteries</h2>
 
 Have you ever felt clueless where time is of the essence and you are stranded alone in an unknown location? 
 

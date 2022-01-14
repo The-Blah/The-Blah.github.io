@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Indian Cricket in 1983 - A Movie Review
+title: The Dawn of Indian Cricket - 1983 (A Movie Review)
 author: Darshan
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: The Deeper Depths of an F1 Car
+title: Dismantling an F1 Car
 author: Venkat
 layout: article
 --- 
