@@ -1,7 +1,7 @@
 ---
+layout: article
 title: The genius of James Joyce
 author: Shradha
-layout: article 
 ---
 
 Authors come with different styles, influenced by their own experiences, environment, visions and most importantly their perception of the world around them. Some authors have conquered the mind of the readers in whatever style they deploy and even sometimes put forth a notion that leads to several scientific discoveries or gone on to revolutionise literature as a whole. I'd like to draw your attention towards James Joyce, an Irish novelist, poet, literary critic and a short story writer best known for Ulysses.

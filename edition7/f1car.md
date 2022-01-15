@@ -1,7 +1,7 @@
 ---
+layout: article
 title: Dismantling an F1 Car
 author: Venkat
-layout: article
 --- 
 
 An F1 car is an extremely complex piece of machinery as it comprises several technical elements as we learnt in the previous edition. Each of its parts have their own importance and small parts of machinery can ruin the entire car if missing. As the new 2022 season is advancing closer, starting any day from the second week of March. The new season brings the largest yet the latest regulation changes ever in F1 history. But for now as none of the cars have been released we shall stick with the 2021 cars. 
