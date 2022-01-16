@@ -5,10 +5,8 @@ author: Gitanjali
 ---
 
 Read the previous chapters to catch up with the rest of the story!<br>
-[Chapter 1](/edition3/centuryahead)<br>
-[Chapter 2](/edition4/centuryahead)<br>
-[Chapter 3](/edition5/centuryahead)<br>
-[Chapter 4](/edition6/centuryahead)<br>
+[Chapter 1](/edition5/mysterioushappenings)<br>
+[Chapter 2](/edition6/lostandfound)<br>
 
 
 Morning had arrived and the bright rays of the sun filtered through the glass window and glimmered on Samir’s face. He gradually got up, slowly rubbing his eyes. Soon he realized that D-Day had finally arrived. He was finally going to embark on the journey he had yearned for all his life. It felt surreal. 
