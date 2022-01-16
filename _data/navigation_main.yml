@@ -175,8 +175,8 @@ edition7:
     link: /edition7/83movie.html
   - name: A Century Ahead
     link: /edition7/centuryahead.html
-  - name: The Dystopian Paradox
-    link: /edition7/dystopianparadox.html
+  - name: The Utopian Paradox
+    link: /edition7/isutopiaalwaysdystopia.html
   - name: The Genius of James Joyce
     link: /edition7/geniusofjamesjoyce.html
   - name: Dismantling an F1 Car
@@ -187,7 +187,10 @@ edition7:
     link: /edition7/poems.html
   - name: Photography
     link: /edition7/photography.html
-  - name: Featured Art
+  - name: Mysterious Happenings of the Underwater World
+    link: /edition7/mysterioushappenings.html
+  - name: Art
     link: /edition7/art.html
+  
 
   

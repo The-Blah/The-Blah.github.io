@@ -1,6 +1,6 @@
 ---
 layout: article
-title: The Dystopian Paradox
+title: The Utopian Paradox - Is a Utopia Always a Dystopia
 author: Aayush
 ---
 
