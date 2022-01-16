@@ -3,6 +3,14 @@ body {
     color: black;
 }
 
+a {
+    color: #041A6E;
+}
+
+.headerColor {
+    color: #041A6E;
+}
+
 ul.navigation a {
    list-style-type: none;
     text-decoration: none;
@@ -10,44 +18,87 @@ ul.navigation a {
     border: 1px solid transparent;
     transition: 0.6s ease;
     border-radius: 5px;
+    font-weight: 500;
 }
 ul.navigation a:hover {
     background-color: #353434;
     color: white;
-    padding: 15px 15px;
+    font-weight: bold;
+    padding: 15px 25px;
     border-radius: 5px;
 }
 
 ul.navigation li.active a {
     background-color: black;
     color: white;
-    padding: 15px;
+    padding: 15px 25px;
+    font-weight: bold;
 }
 
-.editions-list a {
+.column a {
     text-decoration: none;
     color: black;
     padding: 10px;
     border: 1px solid transparent;
     border-radius: 5px;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    transition: 0.6s ease-in-out;
 }
-.editions-list a:hover {
+.column a:hover {
     background-color: #353434;
     padding: 15px 15px;
     color: white;
-    transition: 0.6s ease;
     border-radius: 5px;
-    margin-top: 10%;
-    margin-bottom: 10%;
+}
+
+.column {
+    width: 50%;
+    flex: 50%;
+    float: left;
+}
+
+.editions-list::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .pageHeader {
-    color: #b17e2f;
+    color: #041A6E;
 }
 
 .articleHeader {
-    color: #b17e2f;
+    color: #041A6E;
 }
 
+.feedbackContainer {
+    background-color: #dee4e7;
+}
+
+button[type="submit"] {
+    color: #121212;
+}
+
+button[type="submit"]:hover {
+    background-color: white;
+}
+
+input, textarea {
+    background-color: white;
+    color: black;
+}
+
+.about-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.about-card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.footer {
+    border: 1px solid #041A6E;
+}
+
+.numbertext {
+    color: black;
+}

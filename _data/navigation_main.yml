@@ -3,10 +3,10 @@ main:
     link: /
   - name: About Us
     link: /about.html
+  - name: Talk to us
+    link: /talktous.html
   - name: Editions
     link: /editions.html
-  - name: Feedback
-    link: /feedback.html
 
 edition1:
   - name: The Boy Without A Face
@@ -169,5 +169,28 @@ edition6:
     link: /edition6/talent.html
   - name: Photography
     link: /edition6/photography.html
+
+edition7:
+  - name: The Dawn of Indian Cricket
+    link: /edition7/83movie.html
+  - name: A Century Ahead
+    link: /edition7/centuryahead.html
+  - name: The Utopian Paradox
+    link: /edition7/isutopiaalwaysdystopia.html
+  - name: The Genius of James Joyce
+    link: /edition7/geniusofjamesjoyce.html
+  - name: Dismantling an F1 Car
+    link: /edition7/f1car.html
+  - name: Emotions
+    link: /edition7/emotions.html
+  - name: Poems
+    link: /edition7/poems.html
+  - name: Photography
+    link: /edition7/photography.html
+  - name: Mysterious Happenings of the Underwater World
+    link: /edition7/mysterioushappenings.html
+  - name: Art
+    link: /edition7/art.html
+  
 
   

@@ -1,13 +1,46 @@
 ---
 layout: main
 ---
-
-<h1 style="font-size: 43px; text-align: center;" class="articleHeader">
-    ═══════<br>{{ page.title }}<br>
+<h1 style="font-size: 43px; text-align: center;" class="headerColor">
+    ═══════
+    <br>
+    <span style="font-family: 'Hey Gotcha Regular', sans-serif; letter-spacing: 1.75px;"  class="headerColor">
+        {{ page.title }}
+    </span>
+    <br>
 </h1>
-<p style="text-align: center; font-size: 20px;" class="articleHeader">by {{ page.author }}<br><span
-        style="font-size: 43px;" class="articleHeader">═══════</span></p>
-<div style="font-size: 20px;">
+
+<p style="text-align: center; font-size: 20px;">
+    <span style="font-family: 'Hey Gotcha Regular', sans-serif; letter-spacing: 1.75px;"  class="headerColor">
+        by {{ page.author }}
+    </span>
+    <br>
+    <span style="font-size: 43px;" class="headerColor">
+        ═══════
+    </span>
+</p>
+
+<div class="paragraphs">
     {{ content }}
 </div>
 
+<script>
+/*
+    const col9queryselector = document.querySelector('.col-9');
+
+    if (document.documentElement.scrollTop >= col9queryselector.clientHeight) {
+        const navigationBar = document.querySelector('ul');
+
+        for (const element of navigationBar.children) {
+            let activeElement = "";
+            if (element.classList.contains("active")) {
+                activeElement = element;
+            }
+
+            if (activeElement.nextElementSibling != null) {
+                window.location.href = activeElement.nextElementSibling.children[0].href
+            }
+        }        
+    }
+    */
+</script>

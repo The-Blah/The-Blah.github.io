@@ -1,9 +1,10 @@
 /* Importing the Raleway font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
 /* Setting the font for the style-sheet */
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Comfortaa", sans-serif;
 
     /* Sets how element sizes are calculated; In border-box, width and height properties include content, padding and border */
     box-sizing: border-box;
@@ -16,18 +17,30 @@ html {
 
 /* Sets the colors of most links in the website to The Blah colors */
 a {
-    color: #dbb98f;
+    color: #D1CBCB;
 }
 
 /* Selects li elements under the navigation class. This class is for the sidebar and footer. */
 ul.navigation li {
     /* Removes the default bullet list style */
     list-style-type: none;
-    font-size: 14px;
     border-radius: 5px;
     /* Sets the sizes of the elements to be comfortably spaced */
     margin: 25px 0px 25px 0px;
     padding: 10px 10px;
+    transform: translateX(-350px);
+    animation: leftToRight 500ms 500ms forwards;
+}
+
+@keyframes leftToRight {
+    100% {
+        transform: translateX(0);
+    }
+}
+
+ul.navigation a {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 14px;
 }
 
 /* Selects all elements in the navigation class and aligns them horizontally to the center */
@@ -44,6 +57,11 @@ ul.navigation li {
     text-align: center;
 }
 
+.paragraphs {
+    font-size: 18px;
+    line-height: 140%;
+}
+
 /* Same as above */
 .counter img {
     margin-top: 1%;
@@ -52,6 +70,26 @@ ul.navigation li {
 /* Selects the 3 footer divisions (Pages, Latest Edition, Contact Us) */
 .footer-content-division {
     margin-left: -1px;
+}
+
+.editions-list {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
 }
 
 /* Centers and resizes the logo which is in every page */
@@ -65,34 +103,44 @@ ul.navigation li {
 
 /* Styles the paragraph in home page */
 .home-paragraph {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-    margin-bottom: 10%
+    margin-bottom: 10%;
+    line-height: 140%;
+}
+
+.slogan {
+    font-family: "Hey Gotcha Regular";
+    font-size: 30px;
+    text-align: center;
 }
 
 /* Styling for footer headers for each division */
 .footer-header {
-    color: #f6b042;
+    color: #041A6E;
     text-align: center;
     font-size: 30px;
+    font-weight: bold;
+    font-family: "Hey Gotcha Regular", sans-serif;
+    letter-spacing: 1.75px;
 }
 
 /* General styling for footer */
 .footer {
     border-radius: 12px 12px 12px 12px;
     margin: 7%, 1%, 1%, 1%;
-    border: 1px solid #dbb98f;
+    border: 1px solid #d1cbcb;
 }
 
 .icon-wrapper {
     overflow: hidden;
-    display: block; 
+    display: block;
     text-align: center;
     transition: 0.6s ease;
 }
 
 .icon-wrapper:hover {
-    transform: rotate(180deg)
+    transform: rotate(180deg);
 }
 
 .nav-icon {
@@ -101,7 +149,7 @@ ul.navigation li {
 
 /* Styling for large logo in main page */
 #main-logo {
-    border-radius: 10%;
+    border-radius: 50%;
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -110,7 +158,7 @@ ul.navigation li {
 /* Start define Google Icons */
 
 .material-icons {
-    font-family: 'Material Icons';
+    font-family: "Material Icons";
     font-weight: normal;
     font-style: normal;
     font-size: 24px;
@@ -129,11 +177,8 @@ ul.navigation li {
     /* Support for Firefox. */
     -moz-osx-font-smoothing: grayscale;
     /* Support for IE. */
-    font-feature-settings: 'liga';
+    font-feature-settings: "liga";
 }
-
-
-
 
 /* End Define Google Icons */
 
@@ -141,12 +186,18 @@ ul.navigation li {
 
 /* Marquees are the scrolling text at the top of the main page */
 .marquee {
-    height: 50px;
+    height: 40px;
     overflow: hidden;
     position: relative;
-    background-color: #dbb98f;
+    background-color: #D1CBCB;
     border-color: transparent;
     border-radius: 5px;
+    text-align: center;
+}
+
+.marquee a {
+    color: #041A6E;
+    text-decoration: none;
 }
 
 /* Styles the text in the marquee itself */
@@ -155,21 +206,219 @@ ul.navigation li {
     width: 100%;
     height: 100%;
     margin: 0;
-    line-height: 50px;
-    text-align: left;
+    line-height: 40px;
     /* Apply animation to this element */
-    -moz-animation: marquee 15s linear infinite;
-    -webkit-animation: marquee 15s linear infinite;
-    animation: marquee 15s linear infinite;
     color: #533549;
+    font-weight: bold;
 }
 
 /* Use a class to style the headers on the main pages */
 .pageHeader {
-    line-height: 1;
-    font-size: 43px; 
-    text-align: center; 
+    text-align: center;
     margin-top: 7%;
+}
+
+.pageHeader span {
+    line-height: 1;
+    font-size: 45px;
+    font-family: "Hey Gotcha Regular", sans-serif;
+    letter-spacing: 1.75px;
+}
+
+div.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the flexbox used to hold all the "About" cards in place. */
+.about-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-column-gap: 10rem;
+    grid-row-gap: 2rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .about-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+
+/* Style the "About" cards */
+.about-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    height: 540px;
+    border: 1px transparent;
+    border-radius: 8px;
+    position: relative;
+}
+
+/* Style the nickname present in the "About" cards */
+.nickname {
+    color: grey;
+    font-size: 18px;
+}
+
+/* Style the main description of the person present in the "About" cards */
+.about {
+    position: absolute;
+    word-break: break-word;
+    text-align: center;
+    vertical-align: center;
+    padding: 0px 5px;
+}
+
+/* (Non-existent) Style the button present in the "About" cards */
+.about-card button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.about-card button:hover {
+    opacity: 0.7;
+}
+
+/* Style the avatar of the people in the "About" cards */
+.about-card img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 250px;
+}
+
+/* Styles the media link cards */
+.media-link-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-right: 2%;
+    margin-left: 2%;
+    height: 300px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-link-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.media-link-card-container {
+    padding: 2px 16px;
+}
+
+.media-link-card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    height: 50%;
+    width: auto;
+}
+
+/* Style the custom feedback form */
+#feedbackSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.feedbackContainer {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #00000010;
+    background-color: #272727;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(128, 128, 128, 0.199);
+    margin-top: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: .3s ease background-color;
+}
+
+button[type="submit"]:hover {
+    background-color: black;
+}
+
+#status {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+#status.success {
+    background-color: rgb(211, 250, 153);
+    animation: status 4s ease forwards;
+}
+
+#status.error {
+    background-color: rgb(250, 129, 92);
+    color: white;
+    animation: status 4s ease forwards;
+} 
+
+@keyframes status {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    100% {
+        opacity: 1;
+        pointer-events: none;
+    }
 }
 
 /* Defining keyframes for Mozilla for redundancy */
@@ -229,12 +478,12 @@ ul.navigation li {
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
-    transition-duration: .5s;
+    transition-duration: 0.5s;
 }
 
 /* Changes BG color if hovered */
 #scroll-top-btn:hover {
-    background-color: rgba(119, 119, 119, .5);
+    background-color: rgba(119, 119, 119, 0.5);
 }
 
 /* Changes BG color if clicked */
@@ -308,7 +557,6 @@ ul.navigation li {
 
 /* End define CSS Grid */
 
-
 /* Start define mobile support */
 
 @media only screen and (max-width: 768px) {
@@ -350,6 +598,20 @@ ul.navigation li {
     #riddletext {
         display: block;
     }
+
+    .cards {
+        flex-direction: column;
+        grid-gap: 25px;
+    }
+
+    .pageHeader {
+        font-size: 43px;
+    }
+
+    .about-cards {
+        grid-template-columns: 1fr;
+    }
+    
 }
 
 /* End define mobile support */
@@ -357,7 +619,6 @@ ul.navigation li {
 /* Start define 769px+ devices support */
 
 @media only screen and (min-width: 769px) {
-
     /* Define position and animation for spinner */
 
     #loader {
@@ -370,11 +631,11 @@ ul.navigation li {
         margin: -76px 0 0 -76px;
         border: 5px solid #f3f3f3;
         border-radius: 50%;
-        border-top: 10px solid #dbb98f;
+        border-top: 10px solid #D1CBCB;
         -webkit-animation: spin 2s linear infinite;
-        animation: spin 2s linear infinite;       
+        animation: spin 2s linear infinite;
     }
-    
+
     @-webkit-keyframes spin {
         0% {
             -webkit-transform: rotate(0deg);
@@ -397,26 +658,26 @@ ul.navigation li {
         -webkit-animation-name: animatebottom;
         -webkit-animation-duration: 1s;
         animation-name: animatebottom;
-        animation-duration: 1s
+        animation-duration: 1s;
     }
     @-webkit-keyframes animatebottom {
         from {
             bottom: -100px;
-            opacity: 0
+            opacity: 0;
         }
         to {
             bottom: 0px;
-            opacity: 1
+            opacity: 1;
         }
     }
     @keyframes animatebottom {
         from {
             bottom: -100px;
-            opacity: 0
+            opacity: 0;
         }
         to {
             bottom: 0;
-            opacity: 1
+            opacity: 1;
         }
     }
     #myDiv {
