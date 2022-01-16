@@ -1,6 +1,6 @@
 ---
 layout: article
-title: The Mysterious Happenings of the Underwater World
+title: Chapter 3 - Into the Unknown
 author: Gitanjali
 ---
 
