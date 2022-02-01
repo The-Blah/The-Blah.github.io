@@ -234,9 +234,9 @@ div.cards-container {
 /* Style the flexbox used to hold all the "About" cards in place. */
 .about-cards {
     display: grid;
-    grid-template-columns: repeat(2, 300px);
-    grid-column-gap: 10rem;
-    grid-row-gap: 2rem;
+    grid-template-columns: repeat(3, 250px);
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
 }
 
 @media screen and (max-width: 1100px) {
@@ -404,17 +404,19 @@ button[type="submit"]:hover {
     background-color: rgb(250, 129, 92);
     color: white;
     animation: status 4s ease forwards;
-} 
+}
 
 @keyframes status {
     0% {
         opacity: 1;
         pointer-events: all;
     }
+
     90% {
         opacity: 1;
         pointer-events: all;
     }
+
     100% {
         opacity: 1;
         pointer-events: none;
@@ -426,6 +428,7 @@ button[type="submit"]:hover {
     0% {
         -moz-transform: translateX(100%);
     }
+
     100% {
         -moz-transform: translateX(-100%);
     }
@@ -436,6 +439,7 @@ button[type="submit"]:hover {
     0% {
         -webkit-transform: translateX(100%);
     }
+
     100% {
         -webkit-transform: translateX(-100%);
     }
@@ -450,6 +454,7 @@ button[type="submit"]:hover {
         /* Firefox bug fix */
         transform: translateX(100%);
     }
+
     100% {
         -moz-transform: translateX(-100%);
         /* Firefox bug fix */
@@ -563,10 +568,12 @@ button[type="submit"]:hover {
     [class*="col-"] {
         width: 100%;
     }
+
     .nav-icon {
         display: block;
         margin-top: 5%;
     }
+
     .navigation {
         border: 1px solid #dbb98f;
         border-radius: 12px;
@@ -584,17 +591,21 @@ button[type="submit"]:hover {
         border: 1px solid #dbb98f;
         border-radius: 12px;
     }
+
     #main-logo {
         display: none;
     }
+
     .footer {
         border-width: 5px;
         border-style: solid none none none;
         margin-top: 50%;
     }
+
     #riddleiframe {
         display: none;
     }
+
     #riddletext {
         display: block;
     }
@@ -611,7 +622,7 @@ button[type="submit"]:hover {
     .about-cards {
         grid-template-columns: 1fr;
     }
-    
+
 }
 
 /* End define mobile support */
@@ -640,18 +651,22 @@ button[type="submit"]:hover {
         0% {
             -webkit-transform: rotate(0deg);
         }
+
         100% {
             -webkit-transform: rotate(360deg);
         }
     }
+
     @keyframes spin {
         0% {
             transform: rotate(0deg);
         }
+
         100% {
             transform: rotate(360deg);
         }
     }
+
     /* Add animation to "page content" */
     .animate-bottom {
         position: relative;
@@ -660,31 +675,38 @@ button[type="submit"]:hover {
         animation-name: animatebottom;
         animation-duration: 1s;
     }
+
     @-webkit-keyframes animatebottom {
         from {
             bottom: -100px;
             opacity: 0;
         }
+
         to {
             bottom: 0px;
             opacity: 1;
         }
     }
+
     @keyframes animatebottom {
         from {
             bottom: -100px;
             opacity: 0;
         }
+
         to {
             bottom: 0;
             opacity: 1;
         }
     }
+
     #myDiv {
         display: none;
     }
+
     #riddletext {
         display: none;
     }
 }
+
 /* End define 769px+ devices support */
