@@ -16,6 +16,22 @@ The Blah follows three stages of releases. Major Release, Release, Minor Release
 
 # Changelog
 
+## v3.0.0
+#### by Rahul, 26 February 2022
+• Revamped the "About Us" page with a fresh card design with extra details and a rewritten description for each member.
+
+• Added the "Talk to us" page with a card design to showcase the various social medias of The Blah and also added a custom in-site feedback form to make the filling process easier.
+
+• A new redesigned logo, hand tailored by our beautiful artists.
+
+• Changed the colour scheme & pallette of the website to match the new redesigned logo.
+
+• Changed the font to give a more casual look to the website. It also makes it easier to read the articles.
+
+• We removed few sections of the footer and replaced one with our social medias.
+
+• We also added a couple of bug fixes here and there.
+
 ## v2.1.4
 #### by Rahul, 08 November 2021
 • Changed some changelog numbers to follow previous practices.
