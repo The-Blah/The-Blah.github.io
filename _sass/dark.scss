@@ -1,10 +1,20 @@
+:root {
+    --clr-body-dark: #121212;
+    --clr-text-light: #EEE;
+    --clr-header-light: #D1CBCB;
+    --clr-submit-light: #DEE4E7;
+    --clr-hover-light: #BDBABA;
+    --clr-feedback-dark: #272727;
+    --clr-number-light: #F2F2F2;
+}
+
 body {
-    background-color: #121212;
-    color: #EEE;
+    background-color: var(--clr-body-dark);
+    color: var(--clr-text-light);
 }
 
 .headerColor {
-    color: #D1CBCB;
+    color: var(--clr-header-light);
 }
 
 ul.navigation a {
@@ -17,7 +27,7 @@ ul.navigation a {
 }
 
 ul.navigation a:hover {
-    background-color: #bdbaba;
+    background-color: var(--clr-hover-light);
     color: black;
     font-weight: bold;
     padding: 15px 25px;
@@ -41,7 +51,7 @@ ul.navigation li.active a {
 }
 
 .column a:hover {
-    background-color: #bdbaba;
+    background-color: var(--clr-hover-light);
     padding: 15px 15px;
     color: black;
     border-radius: 5px;
@@ -60,20 +70,20 @@ ul.navigation li.active a {
 }
 
 .pageHeader {
-    color: #D1cbcb;
+    color: var(--clr-header-light);
 }
 
 .articleHeader {
-    color: #D1cbcb;
+    color: var(--clr-header-light);
 }
 
 .feedbackContainer {
-    background-color: #272727;
+    background-color: var(--clr-feedback-dark);
 }
 
 button[type="submit"] {
-    background-color: #121212;
-    color: #dee4e7;
+    background-color: var(--clr-body-dark);
+    color: var(--clr-submit-light);
 }
 
 button[type="submit"]:hover {
@@ -94,9 +104,9 @@ input, textarea {
 }
 
 .footer-header {
-    color: #d1cbcb;
+    color: var(--clr-header-light);
 }
 
 .numbertext {
-    color: #f2f2f2;
+    color: var(--clr-number-light);
 }
