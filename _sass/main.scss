@@ -1,17 +1,17 @@
 /* Importing the Raleway font from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
 
 :root {
     --font-main: "Comfortaa", sans-serif;
     --font-header: "Hey Gotcha Regular";
     --clr-body-dark: #121212;
-    --clr-text-light: #EEE;
-    --clr-header-light: #D1CBCB;
-    --clr-submit-light: #DEE4E7;
-    --clr-hover-light: #BDBABA;
+    --clr-text-light: #eee;
+    --clr-header-light: #d1cbcb;
+    --clr-submit-light: #dee4e7;
+    --clr-hover-light: #bdbaba;
     --clr-feedback-dark: #272727;
-    --clr-number-light: #F2F2F2;
+    --clr-number-light: #f2f2f2;
 }
 
 /* Setting the font for the style-sheet */
@@ -29,7 +29,7 @@ html {
 
 /* Sets the colors of most links in the website to The Blah colors */
 a {
-    color: #D1CBCB;
+    color: #d1cbcb;
 }
 
 /* Selects li elements under the navigation class. This class is for the sidebar and footer. */
@@ -129,7 +129,7 @@ ul.navigation a {
 
 /* Styling for footer headers for each division */
 .footer-header {
-    color: #041A6E;
+    color: #041a6e;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
@@ -201,14 +201,14 @@ ul.navigation a {
     height: 40px;
     overflow: hidden;
     position: relative;
-    background-color: #D1CBCB;
+    background-color: #d1cbcb;
     border-color: transparent;
     border-radius: 5px;
     text-align: center;
 }
 
 .marquee a {
-    color: #041A6E;
+    color: #041a6e;
     text-decoration: none;
 }
 
@@ -237,13 +237,15 @@ ul.navigation a {
     letter-spacing: 1.75px;
 }
 
+/*
 div.cards-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Style the flexbox used to hold all the "About" cards in place. */
+Style the flexbox used to hold all the "About" cards in place.
+
 .about-cards {
     display: grid;
     grid-template-columns: repeat(3, 250px);
@@ -258,7 +260,8 @@ div.cards-container {
     }
 }
 
-/* Style the "About" cards */
+Style the "About" cards
+
 .about-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -268,13 +271,15 @@ div.cards-container {
     position: relative;
 }
 
-/* Style the nickname present in the "About" cards */
+Style the nickname present in the "About" cards
+
 .nickname {
     color: grey;
     font-size: 18px;
 }
 
-/* Style the main description of the person present in the "About" cards */
+Style the main description of the person present in the "About" cards
+
 .about {
     position: absolute;
     word-break: break-word;
@@ -283,7 +288,7 @@ div.cards-container {
     padding: 0px 5px;
 }
 
-/* (Non-existent) Style the button present in the "About" cards */
+(Non-existent) Style the button present in the "About" cards
 .about-card button {
     border: none;
     outline: 0;
@@ -301,12 +306,14 @@ div.cards-container {
     opacity: 0.7;
 }
 
-/* Style the avatar of the people in the "About" cards */
+Style the avatar of the people in the "About" cards
+
 .about-card img {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     width: 250px;
 }
+*/
 
 /* Styles the media link cards */
 .media-link-card {
@@ -391,7 +398,7 @@ button[type="submit"] {
     text-align: center;
     cursor: pointer;
     margin-top: 10px;
-    transition: .3s ease background-color;
+    transition: 0.3s ease background-color;
 }
 
 button[type="submit"]:hover {
@@ -416,6 +423,13 @@ button[type="submit"]:hover {
     background-color: rgb(250, 129, 92);
     color: white;
     animation: status 4s ease forwards;
+}
+
+.music-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 @keyframes status {
@@ -571,7 +585,6 @@ button[type="submit"]:hover {
     padding: 15px;
 }
 
-
 /* End define CSS Grid */
 
 /* Start define mobile support */
@@ -634,7 +647,6 @@ button[type="submit"]:hover {
     .about-cards {
         grid-template-columns: 1fr;
     }
-
 }
 
 /* End define mobile support */
@@ -654,7 +666,7 @@ button[type="submit"]:hover {
         margin: -76px 0 0 -76px;
         border: 5px solid #f3f3f3;
         border-radius: 50%;
-        border-top: 10px solid #D1CBCB;
+        border-top: 10px solid #d1cbcb;
         -webkit-animation: spin 2s linear infinite;
         animation: spin 2s linear infinite;
     }
@@ -722,3 +734,56 @@ button[type="submit"]:hover {
 }
 
 /* End define 769px+ devices support */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    gap: 1.5em;
+}
+
+.cards > .about-card > p {
+    word-wrap: normal;
+}
+
+.cards > .about-card > h1 {
+    font-family: "Hey Gotcha Regular", sans-serif;
+    letter-spacing: 1.75px;
+}
+
+.cards > .about-card {
+    background-color: #111111;
+    margin: 0px;
+    max-width: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    padding-left: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cards > .about-card:hover {
+    background-color: #0b0b0b;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    /*box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.7);*/
+}
+
+@media screen and (max-width: 768px) {
+    .cards > .about-card {
+        max-width: 95%;
+    }
+}

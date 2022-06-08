@@ -2,12 +2,12 @@
     --font-main: "Comfortaa", sans-serif;
     --font-header: "Hey Gotcha Regular", sans-serif;
     --clr-body-dark: #121212;
-    --clr-text-light: #EEE;
-    --clr-header-light: #D1CBCB;
-    --clr-submit-light: #DEE4E7;
-    --clr-hover-light: #BDBABA;
+    --clr-text-light: #eee;
+    --clr-header-light: #d1cbcb;
+    --clr-submit-light: #dee4e7;
+    --clr-hover-light: #bdbaba;
     --clr-feedback-dark: #272727;
-    --clr-number-light: #F2F2F2;   
+    --clr-number-light: #f2f2f2;
 }
 
 body {
@@ -92,7 +92,8 @@ button[type="submit"]:hover {
     background-color: black;
 }
 
-input, textarea {
+input,
+textarea {
     background-color: black;
     color: white;
 }
@@ -111,4 +112,16 @@ input, textarea {
 
 .numbertext {
     color: var(--clr-number-light);
+}
+
+.cards > .about-card {
+    background-color: #111111;
+}
+
+.cards > .about-card {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cards > .about-card:hover {
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.7);
 }

@@ -3,53 +3,56 @@ title: Talk to Us!
 layout: main
 description: Talk to us! We're here to help.
 ---
+
 <header>
     <h1 class="pageHeader">
-        ═══════<br><span>Talk to us</span><br>═══════<br>
+        ═══════<br />
+        <span>Talk to us</span><br />
+        ═══════<br />
     </h1>
 </header>
 <h2 style="text-align: center; font-family: 'Hey Gotcha Regular', sans-serif; letter-spacing: 1.75px;">We'd love to hear from you!</h2>
-<br>
+<br />
 <article>
     <div class="cards">
         <div class="media-link-card col-4">
-            <a href="https://discord.gg/cBGquuF7RH"><img src="assets/media/discord-logo.png" alt="Discord Logo"></a>
+            <a href="https://discord.gg/cBGquuF7RH"><img src="assets/media/discord-logo.png" alt="Discord Logo" /></a>
             <div class="media-link-card-container">
-                <p style='width:95%; word-wrap: normal; text-align: center; font-size: 18px;'>Join our Discord for important updates and events.</p>
+                <p style="width: 95%; word-wrap: normal; text-align: center; font-size: 18px;">Join our Discord for important updates and events.</p>
             </div>
         </div>
         <div class="media-link-card col-4">
-            <a href="https://instagram.com/theblah.magazine"><img src="assets/media/instagram-logo.png" alt="Instagram Logo"></a>
+            <a href="https://instagram.com/theblah.magazine"><img src="assets/media/instagram-logo.png" alt="Instagram Logo" /></a>
             <div class="media-link-card-container">
-                <p style='width:95%; word-wrap: normal; text-align: center; font-size: 18px;'>Our instagram page where we post teasers and additional content.</p>
+                <p style="width: 95%; word-wrap: normal; text-align: center; font-size: 18px;">Our instagram page where we post teasers and additional content.</p>
             </div>
         </div>
         <div class="media-link-card col-4">
-            <a href="mailto:theblah2021@gmail.com"><img src="assets/media/email-logo.png" alt="Email Logo"></a>
+            <a href="mailto:theblah2021@gmail.com"><img src="assets/media/email-logo.png" alt="Email Logo" /></a>
             <div class="media-link-card-container">
-                <p style='width:95%; word-wrap: normal; text-align: center; font-size: 18px;'>Contact us via Email at theblah2021@gmail.com.</p>
+                <p style="width: 95%; word-wrap: normal; text-align: center; font-size: 18px;">Contact us via Email at theblah2021@gmail.com.</p>
             </div>
         </div>
     </div>
 </article>
-<br>
+<br />
 <h2 style="text-align: center; font-family: 'Hey Gotcha Regular', sans-serif; letter-spacing: 1.75px;">Site Feedback Form</h2>
-<br>
+<br />
 <section id="feedbackSection">
     <div class="feedbackContainer">
         <h2 style="font-weight: bolder;">Give us feedback by filling the form below!</h2>
         <form action="https://formspree.io/f/mrgjgayw" method="POST" id="feedbackForm">
             <div class="form-group">
                 <label for="name">What is your name?</label>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="name" />
             </div>
             <div class="form-group">
                 <label for="mostEnjoyedArticle">Which article did you enjoy the most?</label>
-                <input type="text" id="mostEnjoyedArticle" name="mostEnjoyedArticle">
+                <input type="text" id="mostEnjoyedArticle" name="mostEnjoyedArticle" />
             </div>
             <div class="form-group">
                 <label for="ideasToImprove">Give us ideas on how we can improve our magazine?</label>
-                <input type="text" id="ideasToImprove" name="ideasToImprove">
+                <input type="text" id="ideasToImprove" name="ideasToImprove" />
             </div>
             <div class="form-group">
                 <label for="message">Anything to add on?</label>
@@ -61,40 +64,40 @@ description: Talk to us! We're here to help.
     <div id="status" class="error">Fill in the form!</div>
 </section>
 <script>
-window.addEventListener("DOMContentLoaded", function() {
-    var form = document.getElementById("feedbackForm");
-    var status = document.getElementById("status");
+    window.addEventListener("DOMContentLoaded", function () {
+        var form = document.getElementById("feedbackForm");
+        var status = document.getElementById("status");
 
-    function success() {
-        form.reset();
-        status.classList.add("success");
-        status.innerHTML = "Thanks!";
-    }
-
-    function error() {
-        status.classList.add("error");
-        status.innerHTML = "Oops! There was a problem!"
-    }
-
-    form.addEventListener("submit", (event) => {
-        event.preventDefault();
-        var data = new FormData(form);
-        ajax(form.method, form.action, data, success, error);
-    });
-});
-
-function ajax(method, url, data, success, error) {
-    var xhr = new XMLHttpRequest();
-    xhr.open(method, url);
-    xhr.setRequestHeader("Accept", "application/json");
-    xhr.onreadystatechange = function() {
-        if (xhr.readyState !== XMLHttpRequest.DONE) return;
-        if (xhr.status == 200) {
-            success(xhr.response, xhr.responseType);
-        } else {
-            error(xhr.status, xhr.response, xhr.responseType);
+        function success() {
+            form.reset();
+            status.classList.add("success");
+            status.innerHTML = "Thanks!";
         }
-    };
-    xhr.send(data);
-}
+
+        function error() {
+            status.classList.add("error");
+            status.innerHTML = "Oops! There was a problem!";
+        }
+
+        form.addEventListener("submit", (event) => {
+            event.preventDefault();
+            var data = new FormData(form);
+            ajax(form.method, form.action, data, success, error);
+        });
+    });
+
+    function ajax(method, url, data, success, error) {
+        var xhr = new XMLHttpRequest();
+        xhr.open(method, url);
+        xhr.setRequestHeader("Accept", "application/json");
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState !== XMLHttpRequest.DONE) return;
+            if (xhr.status == 200) {
+                success(xhr.response, xhr.responseType);
+            } else {
+                error(xhr.status, xhr.response, xhr.responseType);
+            }
+        };
+        xhr.send(data);
+    }
 </script>

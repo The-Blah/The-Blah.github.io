@@ -1,15 +1,15 @@
-<div class="nav-icon icon-wrapper   " onclick='navIconFunction()'>
+<div class="nav-icon icon-wrapper" onclick="navIconFunction()">
     <i class="fas fa-bars fa-lg"></i>
 </div>
 
 <script>
     function navIconFunction() {
-        var sidebar = document.getElementsByClassName('sidebar');
-        sidebar = sidebar.item(0)
-        if (sidebar.classList.contains('sidebarResponsive')) {
-            sidebar.classList.remove('sidebarResponsive');
+        var sidebar = document.getElementsByClassName("sidebar");
+        sidebar = sidebar.item(0);
+        if (sidebar.classList.contains("sidebarResponsive")) {
+            sidebar.classList.remove("sidebarResponsive");
         } else {
-            sidebar.classList.add('sidebarResponsive');
+            sidebar.classList.add("sidebarResponsive");
         }
     }
 </script>

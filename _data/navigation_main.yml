@@ -192,5 +192,21 @@ edition7:
   - name: Art
     link: /edition7/art.html
   
-
+edition8:
+  - name: Unheard India in WW2
+    link: /edition8/indiaww2.html
+  - name: A Century Ahead
+    link: /edition8/centuryahead.html
+  - name: A Story of Instability and Agony
+    link: /edition8/taliban.html
+  - name: The New Regulations
+    link: /edition8/f1.html
+  - name: Poems
+    link: /edition8/poems.html
+  - name: Photography
+    link: /edition8/photography.html
+  - name: Art
+    link: /edition8/art.html
+  - name: Music
+    link: /edition8/music.html
   

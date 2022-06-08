@@ -4,15 +4,15 @@ body {
 }
 
 a {
-    color: #041A6E;
+    color: #041a6e;
 }
 
 .headerColor {
-    color: #041A6E;
+    color: #041a6e;
 }
 
 ul.navigation a {
-   list-style-type: none;
+    list-style-type: none;
     text-decoration: none;
     color: black;
     border: 1px solid transparent;
@@ -63,11 +63,11 @@ ul.navigation li.active a {
 }
 
 .pageHeader {
-    color: #041A6E;
+    color: #041a6e;
 }
 
 .articleHeader {
-    color: #041A6E;
+    color: #041a6e;
 }
 
 .feedbackContainer {
@@ -82,23 +82,37 @@ button[type="submit"]:hover {
     background-color: white;
 }
 
-input, textarea {
+input,
+textarea {
     background-color: white;
     color: black;
 }
 
-.about-card {
+/*.about-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
+}*/
 
-.about-card:hover {
+/*.about-card:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
-}
+}*/
 
 .footer {
-    border: 1px solid #041A6E;
+    border: 1px solid #041a6e;
 }
 
 .numbertext {
     color: black;
+}
+
+.cards > .about-card {
+    background-color: white;
+}
+
+.cards > .about-card {
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2);
+}
+
+.cards > .about-card:hover {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
