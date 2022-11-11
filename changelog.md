@@ -16,13 +16,19 @@ The Blah follows three stages of releases. Major Release, Release, Minor Release
 
 # Changelog
 
+## v3.1.1
+#### by Rahul, 11 November 2022
+• Rounded the corners of texts with backgrounds a bit more.
+
+• Slight tweaks in the about me section.
+
 ## v3.1
 #### by Rahul, 26 February 2022
 • Revamped the "About Us" page yet again, with a new design involving the removal of the "profile pictures" of the individual members.
 
 • Released Edition 8 with more exciting articles, poems, photography, art and music.
 
-## v3.0.0
+## v3.0
 #### by Rahul, 26 February 2022
 • Revamped the "About Us" page with a fresh card design with extra details and a rewritten description for each member.
 
